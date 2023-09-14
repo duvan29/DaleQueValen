@@ -1,6 +1,7 @@
 import BannerHome from "@/components/Banners/BannerHome/BannerHome";
 import CardGoals from "@/components/Card/CardGoals";
 import CardGoalsContainer from "@/components/Containers/ContainerGoals";
+import Founder from "@/components/Founder";
 import { createIconsTypes } from "@/utils/createIcons";
 
 
@@ -11,6 +12,7 @@ export default function Home() {
     <main >
       <BannerHome/>
       <CardGoalsContainer/>
+      <Founder/>
     </main>
   )
 }

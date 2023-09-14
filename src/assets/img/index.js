@@ -11,6 +11,10 @@ import LogoPink from './logo/DQV - Rosa-8.png'
 import LogoGreen from './logo/DQV - verde-8.png'
 
 
+// Importar las imagenes 'workTeam'
+import Funder from './workTeam/istockphoto-1281083606-612x612.jpg'
+
+
 // Exporta todas las imágenes organizadas en un objeto
 export const Images = {
     logos:{
@@ -24,5 +28,8 @@ export const Images = {
         LogoBlackWhite,
         LogoPink,
         LogoGreen
+    },
+    workTeam:{
+        Funder
     }
 }
