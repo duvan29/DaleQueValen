@@ -10,15 +10,14 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'background-lm': '#f1f1f1',
-      'background-dm': '#13131d',
-      'primary-lm': '#8C0303',
-      'primary-dm': '#444444',
-      'secondary-lm': '#F20505',
-      'secondary-dm': '#555555',
-      'secondary-background': '#ffff',
-      'text-lm': '#333333',
-      'text-dm': '#f1f1f1',
+      green: '#A9D730',
+      purple: '#8E83BC',
+      blue: '#81B6E3',
+      orange: '#F07318',
+      pink: '#EA8BB7',
+      yellow: '#FDDB64',
+      brown: '#31261F',
+      black: '#000000',
       white: '#fff',
     },
     screens: {
