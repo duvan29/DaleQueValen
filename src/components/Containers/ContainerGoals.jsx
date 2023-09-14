@@ -9,22 +9,22 @@ const CardGoalsContainer = () => {
         <div className="flex flex-wrap justify-between">
             <CardGoals
                 description="Sobre la condición de Valentino y tantos niños excluidos del sistema."
-                icon="Facebook"
+                icon="Eye"
                 textIcon="CONCIENTIZAR"
             />
             <CardGoals
                 description="Más opciones de ortopedia y mejores terapias con Tucumán."
-                icon="Facebook"
+                icon="Share"
                 textIcon="CONECTAR"
             />
             <CardGoals
                 description="A terapeutas y médicos con nuevas tecnologías y terapias"
-                icon="Facebook"
+                icon="Pc"
                 textIcon="CAPACITAR"
             />
             <CardGoals
                 description="Valorar y respetar las diferencias porque no hay una sola forma de ser para ser valioso, interesante, querible o exitoso."
-                icon="Facebook"
+                icon="Heart"
                 textIcon="EMPATIZAR"
             />
         </div>
