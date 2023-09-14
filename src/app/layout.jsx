@@ -2,6 +2,7 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import Navigation from './Nav/Navigation.jsx'
 import Footer from './Foooter/Footer'
+import { createIconsTypes } from '@/utils/createIcons'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -10,6 +11,7 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       <head>
