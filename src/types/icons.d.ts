@@ -1,1 +1,1 @@
-export type IconTypes = | 'Facebook' | 'Instagram' | 'Whatsapp' 
+export type IconTypes = | 'Facebook' | 'icon' | 'Instagram' | 'Whatsapp' 
