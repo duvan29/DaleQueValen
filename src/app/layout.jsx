@@ -15,11 +15,11 @@ export default function RootLayout({ children }) {
       <head>
         <title>DaleQueValen</title>
       </head>
-      <Navigation/>
+      {/* <Navigation/> */}
       <body className='pr-[140px] pl-[140px]'>
         {children}
       </body>
-      <Footer/>
+      {/* <Footer/> */}
     </html>
   )
 }

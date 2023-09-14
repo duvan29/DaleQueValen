@@ -27,7 +27,11 @@ module.exports = {
       lg: '1200px',
       xl: '1480px',
     },
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'bgBanner': 'url("https://w0.peakpx.com/wallpaper/24/75/HD-wallpaper-happy-father-s-day-black-hand-day-child-white-father.jpg")'
+      }
+    },
   },
   plugins: [],
 }

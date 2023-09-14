@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    ::-webkit-scrollbar {
+      background: #ededed;
+      width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #A9D730;
+      border-radius: 3px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #A9D730;
+    }
+  }
+
+@layer utilities {
+   h1{
+    font-size: 32px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    p{
+        font-size: 16px;
+    } 
+}
