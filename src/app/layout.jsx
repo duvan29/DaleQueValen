@@ -1,8 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-
 import Navigation from './Nav/Navigation.jsx'
-import { createIconsTypes } from '@/utils/createIcons'
+import Footer from './Foooter/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -11,16 +10,16 @@ export const metadata = {
 }
 
 export default function RootLayout({ children }) {
-  createIconsTypes();
   return (
     <html lang="en">
       <head>
         <title>DaleQueValen</title>
       </head>
-      <body className={inter.className}>
-        <Navigation/>
+      <Navigation/>
+      <body className='pr-[140px] pl-[140px]'>
         {children}
       </body>
+      <Footer/>
     </html>
   )
 }
