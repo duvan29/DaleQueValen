@@ -3,11 +3,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-
 import { Images } from "@/assets/img";
-
-
-import BotonReutilizable from "@/components/BotonReutilizable/BotonReutilizable";
+import ReusableButton from "@/components/BotonReutilizable/ReusableButton";
 
 
 export default function Navigation() {
@@ -44,16 +41,16 @@ export default function Navigation() {
           <ul className="w-full flex justify-around">
             {links.map(({ label, route }) => (
               <Link key={route} href={route} className="w-[175px]">
-                <BotonReutilizable key={route} color="green" width="full" opacity={pathname == route ? ' opacity-100':""} >
+                <ReusableButton key={route} color="green" width="full" opacity={pathname == route ? ' opacity-100':""} >
                 {label}
-                </BotonReutilizable>
+                </ReusableButton>
               </Link>
             ))
             }
             <Link href="/contacto" className="w-[175px]" >
-              <BotonReutilizable color="green" width="full">
+              <ReusableButton color="green" width="full">
                 Contacto
-              </BotonReutilizable>
+              </ReusableButton>
             </Link>
            
             
