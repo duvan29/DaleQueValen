@@ -37,21 +37,21 @@ export default function Navigation() {
   return (
     <div className={`${pathname=='/' ? '':'sticky top-0 z-10'}pr-[40px] pl-[40px] absolute left-0 right-0`}>
       <header className="flex items-center">
-        <div className={`${pathname=='/' ? 'w-100':'w-60'} h-auto`}>
+        <div className={`${pathname=='/' ? 'w-[370px]':'w-[275px]'} h-auto`}>
           <Image className="w-full h-full aspect-ratio-16/9" src={Images.logos.LogoGreen} alt="DaleQueValen Logo" priority />
         </div>
         <nav className="w-full flex justify-end items-center">
           <ul className="w-full flex justify-around">
             {links.map(({ label, route }) => (
-              <Link key={route} href={route} className="w-2/12">
-                <BotonReutilizable key={route} color="green" tamaño="full" opacity={pathname == route ? ' opacity-100':""} >
+              <Link key={route} href={route} className="w-[175px]">
+                <BotonReutilizable key={route} color="green" width="full" opacity={pathname == route ? ' opacity-100':""} >
                 {label}
                 </BotonReutilizable>
               </Link>
             ))
             }
-            <Link href="/contacto" className="w-2/12" >
-              <BotonReutilizable color="green" tamaño="full">
+            <Link href="/contacto" className="w-[175px]" >
+              <BotonReutilizable color="green" width="full">
                 Contacto
               </BotonReutilizable>
             </Link>
