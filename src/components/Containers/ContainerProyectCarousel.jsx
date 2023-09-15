@@ -1,6 +1,8 @@
 import React from 'react';
 import CardProyectCarousel from '../Card/CardProyectCarousel';
 import { Carousel } from '../Carousels/carousel';
+import ReusableButton from '../BotonReutilizable/ReusableButton';
+import Link from 'next/link';
 
 const ContainerProyectCarousel = ({ proyects }) => {
   return (
@@ -9,8 +11,12 @@ const ContainerProyectCarousel = ({ proyects }) => {
         <div className='w-[50%]'>
           <h1 className='text-orange mb-[40px] '>PROYECTOS</h1>
         </div>
-        <div className='flex justify-end w-[50%]'>
-          <button>Hola</button>
+        <div className='flex justify-end w-[40%]'>
+          <Link href='/sumate' className="w-[175px]">
+              <ReusableButton color="green" width="full">
+                Quiero Colaborar
+              </ReusableButton>
+          </Link>
         </div>
       </div>
       
