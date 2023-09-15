@@ -4,7 +4,7 @@ import CardReview from '../Card/CardReview';
 const ContainerReviews = () => {
   return (
     <div className='pt-[60px] pb-[60px]'> 
-    <h1 className='text-yellow mb-[40px]'>Testimonios</h1>
+    <h1 className='text-yellow mb-[40px]'>TESTIMONIOS</h1>
     <div className="flex flex-wrap justify-between">
         <CardReview
             testimonio="Sobre la condición de Valentino y tantos niños excluidos del sistema. Sobre la condición de Valentino y tantos niños excluidos del sistema. Sobre la condición de Valentino y tantos niños excluidos del sistema. Sobre la condición de Valentino y tantos niños excluidos del sistema."
