@@ -8,20 +8,18 @@ const ContainerProyectCarousel = ({ proyects }) => {
   return (
     <div className='pt-[60px] pb-[60px] relative'> 
       <div className='flex '>
-        <div className='w-[50%]'>
-          <h1 className='text-orange mb-[40px] '>PROYECTOS</h1>
+        <div className='w-[50%] flex items-center justify-start'>
+          <h1 className='text-orange'>PROYECTOS</h1>
         </div>
         <div className='flex justify-end w-[40%]'>
-          <Link href='/sumate' className="w-[175px]">
-              <ReusableButton color="green" width="full">
+          <Link href='/sumate' className="w-[275px]">
+              <ReusableButton color="orange-50" border='orange' width="full" text='black'>
                 Quiero Colaborar
               </ReusableButton>
           </Link>
         </div>
       </div>
-      
-      <div className='bg-orange opacity-50 absolute inset-0 -ml-[140px] mt-[148px] -mr-[140px] h-[450px]'></div>
-      <div className='-ml-[140px] -mr-[140px]'>
+      <div className='-ml-[140px] -mr-[140px] bg-orange-50'>
         <Carousel>
           {proyects.map((proyect) => (
             <CardProyectCarousel 
