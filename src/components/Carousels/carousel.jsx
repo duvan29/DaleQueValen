@@ -59,12 +59,12 @@ export function Carousel({ children }) {
 
   return (
     <>
-      <div className="flex gap-1 relative items-center px-2">
+      <div className="flex relative items-center">
         <button
           onClick={() => previus()}
-          className={`w-10 aspect-square rounded-full p-2 bg-white hover:scale-105 hover:text-primary-lm shadow hover:shadow-lg ${''}`}
+          className='w-[140px] h-[140px] p-2 flex justify-start items-center text-gray hover:text-black'
         >
-          <BsChevronCompactLeft size="100%" />
+          <BsChevronCompactLeft size="50%" />
         </button>
         <div className="overflow-hidden w-full">
           <div
@@ -77,7 +77,7 @@ export function Carousel({ children }) {
                   key={i}
                   className={`${
                     i < 4 ? '' : ''
-                  } min-w-full px-1 grid place-content-center overflow-hidden `}
+                  } min-w-full overflow-hidden`}
                 >
                   {child}
                 </div>
@@ -87,9 +87,9 @@ export function Carousel({ children }) {
         </div>
         <button
           onClick={() => next()}
-          className={`w-10 aspect-square rounded-full  p-2 bg-white shadow hover:scale-105 hover:text-primary-lm hover:shadow-lg ${''}`}
+          className='w-[140px] h-[140px] flex justify-end items-center p-2 text-gray hover:text-black'
         >
-          <BsChevronCompactRight size="100%" />
+          <BsChevronCompactRight size="50%" />
         </button>
       </div>
     </>
