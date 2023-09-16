@@ -4,7 +4,7 @@ import React from 'react';
 const CardReview = ({name, profession, testimonio}) => {
   return (
     <div className='border-yellow border-[6px] w-[360px] h-[480px] relative flex justify-center items-center mb-10'>
-      <div className='w-[300px] h-[420px] relative p-10'>
+      <div className='w-[300px] h-[420px] relative p-10 bg-yellow-50'>
         <h3 className='relative z-10 h-[300px]  overflow-hidden mb-[5px]'>
           {testimonio}
         </h3>
@@ -13,7 +13,6 @@ const CardReview = ({name, profession, testimonio}) => {
           <h3>{name}</h3>
           <p>{profession}</p>
         </div>
-        <div className='absolute inset-0 bg-yellow opacity-[50%]'></div>
       </div>
       <div className='absolute top-0 left-0 bg-white -ml-[35px] w-[60px] h-[60px] flex justify-center items-center pb-[14px] pr-[12px] rotate-180'>
         <Icon icon="quotations"/>
