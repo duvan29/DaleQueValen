@@ -1,6 +1,5 @@
-import BannerHome from "@/components/Banners/BannerHome/BannerHome";
-import CardGoals from "@/components/Card/CardGoals";
-import CardReview from "@/components/Card/CardReview";
+
+import BannerHome from "@/components/Banners/BannerHome";
 import CardGoalsContainer from "@/components/Containers/ContainerGoals";
 import ContainerProyectCarousel from "@/components/Containers/ContainerProyectCarousel";
 import ContainerReviews from "@/components/Containers/ContainerReviews";
