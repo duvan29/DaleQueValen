@@ -12,19 +12,6 @@
 }
 
 @font-face {
-  font-family: 'Dotties Chocolate Regular';
-  src: url('DottiesChocolate-Regular.eot');
-  src: local('Dotties Chocolate Regular'), local('DottiesChocolate-Regular'),
-    url('DottiesChocolate-Regular.eot?#iefix') format('embedded-opentype'),
-    url('DottiesChocolate-Regular.woff2') format('woff2'),
-    url('DottiesChocolate-Regular.woff') format('woff'),
-    url('DottiesChocolate-Regular.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Dotties Chocolate Light';
   src: url('DottiesChocolate-Light.eot');
   src: local('Dotties Chocolate Light'), local('DottiesChocolate-Light'),
