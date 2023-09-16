@@ -18,7 +18,10 @@ export default function RootLayout({ children }) {
         <title>DaleQueValen</title>
       </head>
       {/* <Navigation/> */}
-      <body className="pr-[140px] pl-[140px]">{children}</body>
+      <body className='pr-[140px] pl-[140px]'>
+        <Navigation/>
+        {children}
+      </body>
       {/* <Footer/> */}
     </html>
   );
