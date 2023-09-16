@@ -2,33 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('../../public/fonts/Dotties-Chocolate/stylesheet.css');
+@import url('../../public/fonts/Dotties-Vanilla/stylesheet.css');
+
 @layer base {
-    ::-webkit-scrollbar {
-      background: #ededed;
-      width: 8px;
-    }
-    ::-webkit-scrollbar-thumb {
-      background: #A9D730;
-      border-radius: 3px;
-    }
-    ::-webkit-scrollbar-thumb:hover {
-      background: #A9D730;
-    }
+  ::-webkit-scrollbar {
+    background: #ededed;
+    width: 8px;
   }
+  ::-webkit-scrollbar-thumb {
+    background: #a9d730;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a9d730;
+  }
+}
 
 @layer utilities {
-   h1{
+  h1 {
+    font-family: 'Dotties Vanilla ExtraBold';
     font-size: 32px;
-    font-weight: bold;
-    }
-    h2{
-        font-size: 24px;
-        font-weight: 600;
-    }
-    h3{
-        font-size: 20px;
-    }
-    p{
-        font-size: 16px;
-    } 
+    text-transform: uppercase;
+  }
+  h2 {
+    font-family: 'Dotties Vanilla ExtraBold';
+    font-size: 24px;
+  }
+  h3 {
+    font-family: 'Dotties Chocolate Bold';
+
+    font-size: 20px;
+  }
+  h4 {
+    font-family: 'Dotties Chocolate Light';
+    font-size: 20px;
+  }
+  p {
+    font-family: 'Dotties Vanilla Regular';
+    font-size: 16px;
+  }
 }

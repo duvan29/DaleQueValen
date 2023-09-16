@@ -1,0 +1,268 @@
+@font-face {
+  font-family: 'Dotties Vanilla BlackItalic';
+  src: url('DottiesVanilla-BlackItalic.eot');
+  src: local('Dotties Vanilla Black Italic'),
+    local('DottiesVanilla-BlackItalic'),
+    url('DottiesVanilla-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-BlackItalic.woff2') format('woff2'),
+    url('DottiesVanilla-BlackItalic.woff') format('woff'),
+    url('DottiesVanilla-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla ExtraLightItalic';
+  src: url('DottiesVanilla-ExtraLightItalic.eot');
+  src: local('Dotties Vanilla Extra Light Italic'),
+    local('DottiesVanilla-ExtraLightItalic'),
+    url('DottiesVanilla-ExtraLightItalic.eot?#iefix')
+      format('embedded-opentype'),
+    url('DottiesVanilla-ExtraLightItalic.woff2') format('woff2'),
+    url('DottiesVanilla-ExtraLightItalic.woff') format('woff'),
+    url('DottiesVanilla-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Ultra';
+  src: url('DottiesVanilla-Ultra.eot');
+  src: local('Dotties Vanilla Ultra'), local('DottiesVanilla-Ultra'),
+    url('DottiesVanilla-Ultra.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Ultra.woff2') format('woff2'),
+    url('DottiesVanilla-Ultra.woff') format('woff'),
+    url('DottiesVanilla-Ultra.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla MediumItalic';
+  src: url('DottiesVanilla-MediumItalic.eot');
+  src: local('Dotties Vanilla Medium Italic'),
+    local('DottiesVanilla-MediumItalic'),
+    url('DottiesVanilla-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-MediumItalic.woff2') format('woff2'),
+    url('DottiesVanilla-MediumItalic.woff') format('woff'),
+    url('DottiesVanilla-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla ThinItalic';
+  src: url('DottiesVanilla-ThinItalic.eot');
+  src: local('Dotties Vanilla Thin Italic'), local('DottiesVanilla-ThinItalic'),
+    url('DottiesVanilla-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-ThinItalic.woff2') format('woff2'),
+    url('DottiesVanilla-ThinItalic.woff') format('woff'),
+    url('DottiesVanilla-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla LightItalic';
+  src: url('DottiesVanilla-LightItalic.eot');
+  src: local('Dotties Vanilla Light Italic'),
+    local('DottiesVanilla-LightItalic'),
+    url('DottiesVanilla-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-LightItalic.woff2') format('woff2'),
+    url('DottiesVanilla-LightItalic.woff') format('woff'),
+    url('DottiesVanilla-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Regular';
+  src: url('DottiesVanilla-Regular.eot');
+  src: local('Dotties Vanilla Regular'), local('DottiesVanilla-Regular'),
+    url('DottiesVanilla-Regular.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Regular.woff2') format('woff2'),
+    url('DottiesVanilla-Regular.woff') format('woff'),
+    url('DottiesVanilla-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla HeavyItalic';
+  src: url('DottiesVanilla-HeavyItalic.eot');
+  src: local('Dotties Vanilla Heavy Italic'),
+    local('DottiesVanilla-HeavyItalic'),
+    url('DottiesVanilla-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-HeavyItalic.woff2') format('woff2'),
+    url('DottiesVanilla-HeavyItalic.woff') format('woff'),
+    url('DottiesVanilla-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Bold';
+  src: url('DottiesVanilla-Bold.eot');
+  src: local('Dotties Vanilla Bold'), local('DottiesVanilla-Bold'),
+    url('DottiesVanilla-Bold.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Bold.woff2') format('woff2'),
+    url('DottiesVanilla-Bold.woff') format('woff'),
+    url('DottiesVanilla-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla UltraItalic';
+  src: url('DottiesVanilla-UltraItalic.eot');
+  src: local('Dotties Vanilla Ultra Italic'),
+    local('DottiesVanilla-UltraItalic'),
+    url('DottiesVanilla-UltraItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-UltraItalic.woff2') format('woff2'),
+    url('DottiesVanilla-UltraItalic.woff') format('woff'),
+    url('DottiesVanilla-UltraItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Medium';
+  src: url('DottiesVanilla-Medium.eot');
+  src: local('Dotties Vanilla Medium'), local('DottiesVanilla-Medium'),
+    url('DottiesVanilla-Medium.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Medium.woff2') format('woff2'),
+    url('DottiesVanilla-Medium.woff') format('woff'),
+    url('DottiesVanilla-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla RegularItalic';
+  src: url('DottiesVanilla-RegularItalic.eot');
+  src: local('Dotties Vanilla Regular Italic'),
+    local('DottiesVanilla-RegularItalic'),
+    url('DottiesVanilla-RegularItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-RegularItalic.woff2') format('woff2'),
+    url('DottiesVanilla-RegularItalic.woff') format('woff'),
+    url('DottiesVanilla-RegularItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Heavy';
+  src: url('DottiesVanilla-Heavy.eot');
+  src: local('Dotties Vanilla Heavy'), local('DottiesVanilla-Heavy'),
+    url('DottiesVanilla-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Heavy.woff2') format('woff2'),
+    url('DottiesVanilla-Heavy.woff') format('woff'),
+    url('DottiesVanilla-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Light';
+  src: url('DottiesVanilla-Light.eot');
+  src: local('Dotties Vanilla Light'), local('DottiesVanilla-Light'),
+    url('DottiesVanilla-Light.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Light.woff2') format('woff2'),
+    url('DottiesVanilla-Light.woff') format('woff'),
+    url('DottiesVanilla-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla ExtraBoldItalic';
+  src: url('DottiesVanilla-ExtraBoldItalic.eot');
+  src: local('Dotties Extra Bold Italic'),
+    local('DottiesVanilla-ExtraBoldItalic'),
+    url('DottiesVanilla-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-ExtraBoldItalic.woff2') format('woff2'),
+    url('DottiesVanilla-ExtraBoldItalic.woff') format('woff'),
+    url('DottiesVanilla-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Thin';
+  src: url('DottiesVanilla-Thin.eot');
+  src: local('Dotties Vanilla Thin'), local('DottiesVanilla-Thin'),
+    url('DottiesVanilla-Thin.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Thin.woff2') format('woff2'),
+    url('DottiesVanilla-Thin.woff') format('woff'),
+    url('DottiesVanilla-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla BoldItalic';
+  src: url('DottiesVanilla-BoldItalic.eot');
+  src: local('Dotties Vanilla Bold Italic'), local('DottiesVanilla-BoldItalic'),
+    url('DottiesVanilla-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-BoldItalic.woff2') format('woff2'),
+    url('DottiesVanilla-BoldItalic.woff') format('woff'),
+    url('DottiesVanilla-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla ExtraBold';
+  src: url('DottiesVanilla-ExtraBold.eot');
+  src: local('Dotties Vanilla Extra Bold'), local('DottiesVanilla-ExtraBold'),
+    url('DottiesVanilla-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-ExtraBold.woff2') format('woff2'),
+    url('DottiesVanilla-ExtraBold.woff') format('woff'),
+    url('DottiesVanilla-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla Black';
+  src: url('DottiesVanilla-Black.eot');
+  src: local('Dotties Vanilla Black'), local('DottiesVanilla-Black'),
+    url('DottiesVanilla-Black.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Black.woff2') format('woff2'),
+    url('DottiesVanilla-Black.woff') format('woff'),
+    url('DottiesVanilla-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla ExtraLight';
+  src: url('DottiesVanilla-ExtraLight.eot');
+  src: local('Dotties Vanilla Extra Light'), local('DottiesVanilla-ExtraLight'),
+    url('DottiesVanilla-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-ExtraLight.woff2') format('woff2'),
+    url('DottiesVanilla-ExtraLight.woff') format('woff'),
+    url('DottiesVanilla-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
