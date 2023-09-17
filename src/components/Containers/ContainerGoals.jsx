@@ -7,6 +7,8 @@ const CardGoalsContainer = () => {
     <div className='pt-[60px] pb-[60px]'> 
         <h1 className='text-purple mb-[40px]'>Nuestros Objetivos</h1>
         <div className="flex flex-wrap justify-between">
+
+    
             <CardGoals
                 description="Sobre la condición de Valentino y tantos niños excluidos del sistema."
                 icon="Facebook"

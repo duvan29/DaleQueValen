@@ -1,7 +1,7 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
 import Navigation from './Nav/Navigation.jsx'
-import Footer from './Foooter/Footer'
+import Footer from './Foooter/Footer.jsx'
 import { createIconsTypes } from '@/utils/createIcons'
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,11 +17,11 @@ export default function RootLayout({ children }) {
       <head>
         <title>DaleQueValen</title>
       </head>
-      {/* <Navigation/> */}
+      {/* {<Navigation/>} */}
       <body className='pr-[140px] pl-[140px]'>
         {children}
       </body>
-      {/* <Footer/> */}
+      {<Footer/>}
     </html>
   )
 }
