@@ -57,9 +57,6 @@ module.exports = {
       backgroundImage:{
         'bgBanner': 'url("https://w0.peakpx.com/wallpaper/24/75/HD-wallpaper-happy-father-s-day-black-hand-day-child-white-father.jpg")'
       },
-      backgroundColor: {
-        'orangeOpacity': 'rgba(240, 115, 24, 0.5)', // Define el color naranja con una opacidad del 50%
-      },
     },
   },
   variants: {},
