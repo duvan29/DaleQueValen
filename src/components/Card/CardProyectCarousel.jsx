@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import ReusableButton from '../BotonReutilizable/ReusableButton';
+import ReusableButton from '../ReusableButton/ReusableButton';
 
 const CardProyectCarousel = ({title, description, image}) => {
   return (
