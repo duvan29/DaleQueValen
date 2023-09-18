@@ -42,7 +42,7 @@ export default function Navigation() {
           <div className="w-full flex justify-around">
             {links.map(({ label, route }) => (
               <Link key={route} href={route} className="w-[175px]">
-                <ReusableButton key={route} color='green' border='green' width="full" isActive={pathname == route} >
+                <ReusableButton color='green' border='green' width="full" isActive={pathname == route}>
                 {label}
                 </ReusableButton>
               </Link>
