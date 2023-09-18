@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Dotties Chocolate Bold';
+  src: url('DottiesChocolate-Bold.eot');
+  src: local('Dotties Chocolate Bold'), local('DottiesChocolate-Bold'),
+    url('DottiesChocolate-Bold.eot?#iefix') format('embedded-opentype'),
+    url('DottiesChocolate-Bold.woff2') format('woff2'),
+    url('DottiesChocolate-Bold.woff') format('woff'),
+    url('DottiesChocolate-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Chocolate Light';
+  src: url('DottiesChocolate-Light.eot');
+  src: local('Dotties Chocolate Light'), local('DottiesChocolate-Light'),
+    url('DottiesChocolate-Light.eot?#iefix') format('embedded-opentype'),
+    url('DottiesChocolate-Light.woff2') format('woff2'),
+    url('DottiesChocolate-Light.woff') format('woff'),
+    url('DottiesChocolate-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
