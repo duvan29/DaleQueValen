@@ -46,6 +46,9 @@ module.exports = {
         DEFAULT: '#ffffff',          // Sin opacidad (100% opaco)
         50: 'rgba(255, 255, 255, 0.5)', // 50% de opacidad
       },
+      gray:{
+        DEFAULT:'rgba(50, 50, 50, 0.6)'           ,//Sin opacidad (100% opaco),
+      }
     },
     screens: {
       ms: '200px',
