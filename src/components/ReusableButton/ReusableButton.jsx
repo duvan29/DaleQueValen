@@ -1,21 +1,14 @@
-'use cliente'
+export default function ReusableButton({ color, border, width, text, children, isActive }) {
+  const backgroundColorClass = `bg-${color}-50 hover:bg-${color}`;
+  const textColorClass = `text-${text ? text : 'white'}`;
+  const borderWidthClass = `border-2 border-${border}`;
+  const widthClass = `w-${width}`;
 
-import React from "react";
-export default function ReusableButton({color,border,width,opacity,text,children,isActive}){
-    const tailwindClass=`bg-${isActive ? color:`${color}-50`}  font-bold w-${width} h-16 px-4 py-3 hover:bg-${color} transition-all duration-500 my-8 ease-in-out rounded font-semibold flex items-center justify-center border-solid border-4 border-${border} border-opacity-100 text-${text ? text:'white'}`;
-    
-
-    //Modificada:
-    //const tailwindClass2=`${isActive ? `bg-${color}`:`bg-${color}-50`} font-bold w-${width} h-16 px-4 py-3 hover:bg-${color} hover:bg-opacity-100 transition-all duration-500 my-8 ease-in-out rounded font-semibold flex items-center justify-center border-solid border-4 border-${border ? border:'green'} border-opacity-100 text-${text ? text:'white'}`;
-    //Estatica:
-    //const tailwindClass3=`${isActive ? 'bg-green':`bg-green-50`} font-bold w-${width} h-16 px-4 py-3 hover:bg-green hover:bg-opacity-100 transition-all duration-500 my-8 ease-in-out rounded font-semibold flex items-center justify-center border-solid border-4 border-green border-opacity-100 text-${text ? text:'white'}`;
-
-
-    return(
-        <button className={tailwindClass}>
-        {children}
-        </button>
-    )
+  return (
+    <button
+      className={`font-bold h-16 px-4 py-3 ${backgroundColorClass} ${widthClass} ${textColorClass} ${borderWidthClass} transition-all my-8 ease-in-out rounded font-semibold flex items-center justify-center`}
+    >
+      {children}
+    </button>
+  );
 }
-
-
