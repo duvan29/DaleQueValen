@@ -23,6 +23,8 @@ const ContainerProyectCarousel = ({ proyects }) => {
         <Carousel>
           {proyects.map((proyect) => (
             <CardProyectCarousel 
+              key={proyect.id} // Agrega una clave única aquí
+              id={proyect.id}
               description={proyect.description}
               title={proyect.title}  
               image={proyect.Image}
