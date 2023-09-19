@@ -1,7 +1,9 @@
+import SectionTitle from '@/components/SectionTitle/SectionTitle';
+
 export default function Sumate() {
-    return(
-        <main>
-            <div>Sumate</div>
-        </main>
-    )
+  return (
+    <main>
+      <SectionTitle bgColor="purple" title="sumate" />
+    </main>
+  );
 }
