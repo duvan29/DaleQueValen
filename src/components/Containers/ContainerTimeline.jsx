@@ -34,12 +34,12 @@ export default function ContainerTimeline() {
       
     ]
     return(
-        <div>
+        <div className="mb-10">
             <div className='flex '>
-        <div className='w-[50%] flex items-center justify-start'>
-          <h1 className='text-blue mb-[40px]'>Cómo nace Dale Que Valen</h1>
-        </div>
-      </div>
+                <div className='w-[50%] flex items-center justify-start'>
+                    <h1 className='text-blue mb-[40px]'>Cómo nace Dale Que Valen</h1>
+                </div>
+            </div>
             {timelineData.map((item,index)=>(
                 <TimelineItem key={index} year={item.year} imageSrc1={item.imageSrc1} imageSrc2={item.imageSrc2} text1={item.text1} text2={item.text2}/>
             ))}
