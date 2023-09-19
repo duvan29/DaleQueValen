@@ -23,3 +23,17 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'Dotties Chocolate LightItalic';
+  src: url('DottiesChocolate-LightItalic.eot');
+  src: local('Dotties Chocolate Light Italic'),
+    local('DottiesChocolate-LightItalic'),
+    url('DottiesChocolate-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('DottiesChocolate-LightItalic.woff2') format('woff2'),
+    url('DottiesChocolate-LightItalic.woff') format('woff'),
+    url('DottiesChocolate-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
