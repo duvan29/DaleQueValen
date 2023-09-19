@@ -1,13 +1,14 @@
-import BannerConocenos from "@/components/Banners/BannerConocenos";
-import ContainerMisionCarousel from "@/components/Containers/ContainerMision";
-import mision from "@/mock/mockMisionVisionValores";
+import BannerConocenos from '@/components/Banners/BannerConocenos';
+import ContainerMisionCarousel from '@/components/Containers/ContainerMision';
+import SectionTitle from '@/components/SectionTitle/SectionTitle';
+import mision from '@/mock/mockMisionVisionValores';
 
 export default function Conocenos() {
-    return(
-        <main>
-            <div>Conocenos</div>
-            <BannerConocenos/>
-            <ContainerMisionCarousel mision={mision}/>
-        </main>
-    )
+  return (
+    <main>
+      <SectionTitle bgColor="blue" title="conocenos" />
+      <BannerConocenos />
+      <ContainerMisionCarousel mision={mision} />
+    </main>
+  );
 }
