@@ -1,7 +1,7 @@
 import React from 'react';
 import CardProyectCarousel from '../Card/CardProyectCarousel';
 import { Carousel } from '../Carousels/carousel';
-import ReusableButton from '../BotonReutilizable/ReusableButton';
+import ReusableButton from '../ReusableButton/ReusableButton';
 import Link from 'next/link';
 
 const ContainerProyectCarousel = ({ proyects }) => {
@@ -13,7 +13,7 @@ const ContainerProyectCarousel = ({ proyects }) => {
         </div>
         <div className='flex justify-end w-[40%]'>
           <Link href='/sumate' className="w-[275px]">
-              <ReusableButton color="orange-50" border='orange' width="full" text='black'>
+              <ReusableButton color="orange" border='orange' text='black' width="full" >
                 Quiero Colaborar
               </ReusableButton>
           </Link>
@@ -23,6 +23,8 @@ const ContainerProyectCarousel = ({ proyects }) => {
         <Carousel>
           {proyects.map((proyect) => (
             <CardProyectCarousel 
+              key={proyect.id} // Agrega una clave única aquí
+              id={proyect.id}
               description={proyect.description}
               title={proyect.title}  
               image={proyect.Image}

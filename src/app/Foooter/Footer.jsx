@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
       <div>
         <div>
-          <Image className='w-60' src={Images.logos.LogoBlack} alt="DaleQueValen Logo" priority />
+          <Image className='w-60' src={Images.logos.LogoWhite} alt="DaleQueValen Logo" priority />
         </div>
         <p>
           ©️Copyright

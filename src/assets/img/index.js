@@ -1,6 +1,6 @@
 // Importar las imagenes 'logo'
 import LogoYellow from './logo/DQV - Amarillo-8.png'
-import LogoBlack from './logo/DQV - Blanco negativo-8.png'
+import LogoWhite from './logo/DQV - Blanco negativo-8.png'
 import LogoBlue from './logo/DQV - Celeste-8.png'
 import LogoCream from './logo/DQV - Crema-8.png'
 import LogoBrown from './logo/DQV - Marron-8.png'
@@ -19,7 +19,7 @@ import Funder from './workTeam/istockphoto-1281083606-612x612.jpg'
 export const Images = {
     logos:{
         LogoYellow,
-        LogoBlack,
+        LogoWhite,
         LogoBlue,
         LogoCream,
         LogoBrown,

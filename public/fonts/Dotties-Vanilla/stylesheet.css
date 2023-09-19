@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'Dotties Vanilla Regular';
+  src: url('DottiesVanilla-Regular.eot');
+  src: local('Dotties Vanilla Regular'), local('DottiesVanilla-Regular'),
+    url('DottiesVanilla-Regular.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-Regular.woff2') format('woff2'),
+    url('DottiesVanilla-Regular.woff') format('woff'),
+    url('DottiesVanilla-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Dotties Vanilla ExtraBold';
+  src: url('DottiesVanilla-ExtraBold.eot');
+  src: local('Dotties Vanilla Extra Bold'), local('DottiesVanilla-ExtraBold'),
+    url('DottiesVanilla-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('DottiesVanilla-ExtraBold.woff2') format('woff2'),
+    url('DottiesVanilla-ExtraBold.woff') format('woff'),
+    url('DottiesVanilla-ExtraBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
