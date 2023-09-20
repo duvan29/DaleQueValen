@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
 
 
       {/* <Navigation/> */}
-      <body className='pr-[140px] pl-[140px] '>
+      <body className='lg:pr-[140px] lg:pl-[140px] ms:pr-[15px] ms:pl-[15px]'>
         <Navigation/>
           {children}
         {<Footer/>}
