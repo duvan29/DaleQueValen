@@ -4,7 +4,7 @@ import Image from "next/image";
 const Founder = () => {
   return (
     <>
-      <h1 className=" ms:mb-[12px] ms:text-center ms:text-black ms:text-[14px]">fundador</h1>
+      <h1 className=" ms:mb-[12px] ms:text-center ms:text-black ms:text-[14px] md:hidden">fundador</h1>
       <div className="flex justify-around items-center flex-row lg:pr-[300px] lg:pl-[300px]">
         {/* Sección izquierda con la foto */}
         <div className=" p-4">
@@ -20,7 +20,7 @@ const Founder = () => {
         {/* Sección derecha con el nombre, rol y descripción */}
         <div className="p-4 md:text-center flex flex-col md:justify-center ms:text-left md:items-center">
           <h1 className="mb-2 text-blue ms:text-[12px] md:text-[32px]">ARANTXA OLMOS SALGADO</h1>
-          <h2 className="mb-2 text-blue ms:hidden">FUNDADORA</h2>
+          <h2 className="mb-2 text-blue ms:hidden md:flex">FUNDADORA</h2>
           <h4 className="lg:w-[650px] ms:w-full ms:text-[10px] md:text-[20px]">
             Amet ex sint irure mollit sunt ut deserunt ut cillum sit irure est
             amet. Magna magna nostrud est labore non duis cillum. Pariatur nulla
