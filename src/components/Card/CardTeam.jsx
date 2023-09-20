@@ -3,9 +3,9 @@ import React from 'react';
 
 const CardTeam = ({ title, description, image, id }) => {
   return (
-    <section className='flex flex-row justify-center text-center items-center m-5 p-5'>
-      <div className='flex flex-col h-[400px] m-5'>
-        {/* Lado izquierdo */}
+    <section className='flex flex-row justify-center text-center p-5'>
+      <div className='flex flex-col h-[400px] justify-center text-center items-center p-5 m-[50px] md:m-10'>
+     
         <div className='w-full h-full'>
           <Image
             key={id}
@@ -21,8 +21,8 @@ const CardTeam = ({ title, description, image, id }) => {
       </div>
 
 
-      <div className='flex flex-col h-[400px] m-5'>
-        {/* Lado izquierdo */}
+      <div className='flex flex-col h-[400px] p-5 m-[50px] md:m-10'>
+
         <div className='w-full h-full'>
           <Image
             key={id}
@@ -39,8 +39,8 @@ const CardTeam = ({ title, description, image, id }) => {
 
 
 
-      <div className='flex flex-col h-[400px] m-5'>
-        {/* Lado izquierdo */}
+      <div className='flex flex-col h-[400px] p-5 m-[50px] md:m-10'>
+  
         <div className='w-full h-full'>
           <Image
             key={id}
