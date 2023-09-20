@@ -7,7 +7,7 @@ import Icon from '@/assets/icons/icon';
 
 const Footer = () => {
   return (
-    <footer className='bg-green text-white h-1/2 p-5 flex md:flex-row flex-col justify-between text-center items-center -ml-[140px] -mr-[140px]'>
+    <footer id='contacto' className='bg-green text-white h-1/2 p-5 flex md:flex-row flex-col justify-between text-center items-center -ml-[140px] -mr-[140px]'>
       <div className='mx-32'>
         <ul>
           <div className='flex gap-6'>
@@ -47,9 +47,9 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <div>
+        <Link href="/">
           <Image className='w-60' src={Images.logos.LogoWhite} alt="DaleQueValen Logo" priority />
-        </div>
+        </Link>
         <p>
           ©️Copyright FooTalent 2023
         </p>
