@@ -1,10 +1,12 @@
+
 import './globals.css';
 import { Inter } from 'next/font/google';
 import Navigation from './Nav/Navigation.jsx';
-import Footer from './Foooter/Footer';
+import Footer from '../components/Foooter/Footer';
 import { createIconsTypes } from '@/utils/createIcons';
 
 const inter = Inter({ subsets: ['latin'] });
+
 
 export const metadata = {
   title: 'Create Next App',
@@ -17,12 +19,14 @@ export default function RootLayout({ children }) {
       <head>
         <title>DaleQueValen</title>
       </head>
+
+
       {/* <Navigation/> */}
       <body className='pr-[140px] pl-[140px] '>
         <Navigation/>
-        {children}
+          {children}
+        {<Footer/>}
       </body>
-      {/* <Footer/> */}
     </html>
   );
 }
