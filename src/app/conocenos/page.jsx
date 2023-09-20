@@ -6,7 +6,7 @@ import mision from '@/mock/mockMisionVisionValores';
 export default function Conocenos() {
   return (
     <main>
-      <SectionTitle bgColor="blue-50" title="conocenos" />
+      <SectionTitle bgColor="blue" title="conocenos" />
       <BannerConocenos />
       <ContainerMisionCarousel mision={mision} />
     </main>

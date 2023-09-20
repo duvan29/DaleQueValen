@@ -2,20 +2,20 @@ import React from 'react';
 import Link from 'next/link';
 import Image from "next/image";
 import { Images } from "@/assets/img";
-import CardGoals from '@/assets/icons/icon';
+import Icon from '@/assets/icons/icon';
 
 
 const Footer = () => {
   return (
-    <footer className='bg-[#a9d730] text-white h-1/2 p-5 w-full flex md:flex-row flex-col justify-between text-center items-center'>
+    <footer className='bg-green text-white h-1/2 p-5 flex md:flex-row flex-col justify-between text-center items-center -ml-[140px] -mr-[140px]'>
       <div className='mx-32'>
         <ul>
           <div className='flex gap-6'>
             <Link
-              className='w-10 hover:text-[#8e83bc]'
+              className='w-10 hover:text-purple'
               href={"https://www.facebook.com/"}
               target='_blank'>
-              <CardGoals
+              <Icon
                 icon="Facebook"
               />
             </Link>
@@ -23,7 +23,7 @@ const Footer = () => {
               className='w-10 hover:text-[#8e83bc]'
               href={"https://www.youtube.com/"}
               target='_blank'>
-                <CardGoals
+                <Icon
                 icon="Youtube"
               />
             </Link>
@@ -31,7 +31,7 @@ const Footer = () => {
               className='w-10 hover:text-[#8e83bc]'
               href={"https://www.instagram.com/dalequevalen/"}
               target='_blank'>
-                <CardGoals
+                <Icon
                 icon="Instagram"
               />
             </Link>
@@ -39,7 +39,7 @@ const Footer = () => {
               className='w-10 hover:text-[#8e83bc]'
               href={"https://www.linkedin.com/"}
               target='_blank'>
-                <CardGoals
+                <Icon
                 icon="Linkedin"
               />
             </Link>
@@ -51,7 +51,7 @@ const Footer = () => {
           <Image className='w-60' src={Images.logos.LogoWhite} alt="DaleQueValen Logo" priority />
         </div>
         <p>
-          ©️Copyright
+          ©️Copyright FooTalent 2023
         </p>
       </div>
       <div className='flex gap-4 flex-col mx-32'>
@@ -60,7 +60,7 @@ const Footer = () => {
             className=' w-10 hover:text-[#8e83bc] flex mx-2'
             href={"https://gmail.com/"}
             target='_blank'>
-              <CardGoals
+              <Icon
                 icon="Mail"
               />
           </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
             className=' w-10 hover:text-[#8e83bc] flex mx-2'
             href={"https://web.whatsapp.com/"}
             target='_blank'>
-             <CardGoals
+             <Icon
                 icon="Whatsapp"
               />
           </Link>
