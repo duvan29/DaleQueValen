@@ -31,11 +31,18 @@
   }
   h3 {
     font-family: 'Dotties Chocolate Bold';
-
     font-size: 20px;
   }
   h4 {
     font-family: 'Dotties Chocolate Light';
+    font-size: 20px;
+  }
+  h5 {
+    font-family: 'Dotties Chocolate LightItalic';
+    font-size: 20px;
+  }
+  h6 {
+    font-family: 'Dotties Vanilla ExtraBold';
     font-size: 20px;
   }
   p {
