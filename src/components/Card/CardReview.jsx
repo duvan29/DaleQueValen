@@ -11,7 +11,7 @@ const CardReview = ({ name, profession, testimonio }) => {
         <div className="border-t border-brown opacity-50 pb-2"></div>
         <div className="flex flex-col items-end relative z-10">
           <h6>{name}</h6>
-          <h4>{profession}</h4>
+          <p>{profession}</p>
         </div>
       </div>
       <div className="absolute top-0 left-0 bg-white -ml-[35px] w-[60px] h-[60px] flex justify-center items-center pb-[14px] pr-[12px] rotate-180">
