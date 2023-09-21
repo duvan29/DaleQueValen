@@ -11,7 +11,7 @@ const ContainerMisionCarousel = ({ mision }) => {
           <h1 className='text-blue mb-[40px]'>Mision, Vision, Valores</h1>
         </div>
       </div>
-      <div className='-ml-[140px] -mr-[140px] bg-blue-50'>
+      <div className='-ml-[140px] -mr-[140px] bg-blue-20'>
         <Carousel useFlexStyle={true}>
           {mision.map((mision) => (
             <CardMision

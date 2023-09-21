@@ -11,7 +11,7 @@ const ContainerTeam = ({ equipo }) => {
         <h1 className='md:text-blue  md:text-[30px] md:text-left  ms:text-center ms:text-black ms:text-[14px] md:mb-[40px] ms:mb-[12px]'>EQUIPO DE TRABAJO</h1>
         </div>
       </div>
-      <div className='lg:-ml-[140px] lg:-mr-[140px] ms:-ml-[15px] ms:-mr-[15px] bg-blue-50'>
+      <div className='lg:-ml-[140px] lg:-mr-[140px] ms:-ml-[15px] ms:-mr-[15px] bg-blue-20'>
         <Carousel useFlexStyle={false}>
           {equipo.map((equipo) => (
             <CardTeam
