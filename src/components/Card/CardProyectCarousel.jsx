@@ -5,21 +5,21 @@ import ReusableButton from '../ReusableButton/ReusableButton';
 
 const CardProyectCarousel = ({title, description, image, id}) => {
   return (
-    <div className='flex h-[450px]'> 
+    <div className='flex md:h-[450px] ms:h-[190px] ms:flex-row-reverse lg:flex-row'> 
       {/* Lado izquierdo */}
-      <div className='w-[50%] h-full flex flex-col justify-center relative'>
-        <h2 className='text-black mb-[20px]'>{title}</h2>
-        <h4 className='text-black mb-[20px] max-w-[500px]'>{description}</h4>
-        <div className='absolute bottom-0 right-0 m-8 w-[175px]'>
+      <div className='md:w-[50%] ms:w-full h-full flex flex-col justify-center relative'>
+        <h2 className='text-black md:mb-[20px] ms:text-[12px] md:text-[24px]'>{title}</h2>
+        <h4 className='text-black md:mb-[20px] md:max-w-[500px] md:text-[20px] ms:text-[10px] overflow-hidden'>{description}</h4>
+        <div className='lg:w-[80%]  ms:w-[100%] text-right md:mb-[10px] '>
           <Link href='/proyectos'>
-                <ReusableButton color="white" border='orange' text='orange' width="full">
-                  Ver más
-                </ReusableButton>
+                <botton className='text-orange ms:underline'>
+                  <h6 className='ms:text-[12px] md:text-[20px]'>Ver Más</h6>
+                </botton>
           </Link>
       </div>
       </div>
       {/* Lado derecho con imagen de fondo */}
-      <div className='w-[50%] h-[450px] relative'>
+      <div className='mt-[1px] md:w-[50%] ms:w-[120px] md:h-[450px] ms:h-full md:relative ms:mr-[15px] lg:mr-[0px]'>
         <Image
           key={id}
           id={id}
