@@ -19,7 +19,7 @@ const CardProyectCarousel = ({title, description, image, id}) => {
       </div>
       </div>
       {/* Lado derecho con imagen de fondo */}
-      <div className='mt-[1px] md:w-[50%] ms:w-[120px] md:h-[450px] ms:h-full md:relative ms:mr-[15px] lg:mr-[0px]'>
+      <div className='md:w-[50%] ms:w-[120px] md:h-[450px] ms:h-full md:relative ms:mr-[15px] lg:mr-[0px]'>
         <Image
           key={id}
           id={id}

@@ -20,7 +20,7 @@ const ContainerProyectCarousel = ({ proyects }) => {
         </div>
       </div>
       <div className='lg:-ml-[140px] lg:-mr-[140px] ms:-ml-[15px] ms:-mr-[15px] bg-orange-50'>
-        <Carousel>
+        <Carousel useFlexStyle={true}>
           {proyects.map((proyect) => (
             <CardProyectCarousel 
               key={proyect.id} // Agrega una clave única aquí
