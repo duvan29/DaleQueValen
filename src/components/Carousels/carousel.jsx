@@ -3,7 +3,7 @@ import { useRef } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
 
-export function Carousel({ children }) {
+export function Carousel({ children, useFlexStyle  }) {
   const carouselRef = useRef(null);
 
   function next() {
@@ -62,7 +62,7 @@ export function Carousel({ children }) {
       <div className="flex relative items-center">
         <button
           onClick={() => previus()}
-          className='md:w-[162px] md:h-[140px] ms:w-[60px] ms:h-[60px] flex justify-start items-center text-gray hover:text-black'
+          className='lg:w-[162px] md:w-[100px] lg:h-[140px] ms:w-[60px] ms:h-[60px] flex justify-start items-center text-gray hover:text-black'
         >
           <BsChevronCompactLeft size="50%" />
         </button>
@@ -75,19 +75,21 @@ export function Carousel({ children }) {
               return (
                 <div
                   key={i}
-                  className={`${
-                    i < 4 ? '' : ''
-                  } min-w-full overflow-hidden`}
+                  className={`min-w-full ${
+                    useFlexStyle
+                      ? 'overflow-hidden'
+                      : 'ms:min-w-[calc(100%/2)] md:min-w-[calc(100%/3)] lg:min-w-[calc(100%/4)] px-1 grid place-content-center overflow-hidden'
+                  }`}
                 >
-                  {child}
-                </div>
+                {child}
+              </div>
               );
             })}
           </div>
         </div>
         <button
           onClick={() => next()}
-          className='md:w-[162px] md:h-[140px] ms:w-[60px] ms:h-[60px] flex justify-end items-center  text-gray hover:text-black'
+          className='lg:w-[162px] lg:h-[140px] md:w-[100px]  ms:w-[60px] ms:h-[60px] flex justify-end items-center  text-gray hover:text-black'
         >
           <BsChevronCompactRight size="50%" />
         </button>
