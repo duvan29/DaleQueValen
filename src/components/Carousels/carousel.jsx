@@ -62,7 +62,7 @@ export function Carousel({ children }) {
       <div className="flex relative items-center">
         <button
           onClick={() => previus()}
-          className='w-[162px] h-[140px] flex justify-start items-center text-gray hover:text-black'
+          className='md:w-[162px] md:h-[140px] ms:w-[60px] ms:h-[60px] flex justify-start items-center text-gray hover:text-black'
         >
           <BsChevronCompactLeft size="50%" />
         </button>
@@ -87,7 +87,7 @@ export function Carousel({ children }) {
         </div>
         <button
           onClick={() => next()}
-          className='w-[162px] h-[140px] flex justify-end items-center  text-gray hover:text-black'
+          className='md:w-[162px] md:h-[140px] ms:w-[60px] ms:h-[60px] flex justify-end items-center  text-gray hover:text-black'
         >
           <BsChevronCompactRight size="50%" />
         </button>
