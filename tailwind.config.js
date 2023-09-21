@@ -21,10 +21,12 @@ module.exports = {
       blue: {
         DEFAULT: '#81B6E3',          // Sin opacidad (100% opaco)
         50: 'rgba(129, 182, 227, 0.5)', // 50% de opacidad
+        20: 'rgba(129, 182, 227, 0.2)',
       },
       orange: {
         DEFAULT: '#F07318',          // Sin opacidad (100% opaco)
         50: 'rgba(240, 115, 24, 0.5)', // 50% de opacidad
+        20: 'rgba(240, 115, 24, 0.2)',
       },
       pink: {
         DEFAULT: '#EA8BB7',          // Sin opacidad (100% opaco)
