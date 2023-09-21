@@ -1,56 +1,56 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+
     // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     colors: {
       green: {
-        DEFAULT: '#A9D730',          // Sin opacidad (100% opaco)
+        DEFAULT: '#A9D730', // Sin opacidad (100% opaco)
         50: 'rgba(169, 215, 48, 0.5)', // 50% de opacidad
       },
       purple: {
-        DEFAULT: '#8E83BC',          // Sin opacidad (100% opaco)
+        DEFAULT: '#8E83BC', // Sin opacidad (100% opaco)
         50: 'rgba(142, 131, 188, 0.5)', // 50% de opacidad
       },
       blue: {
-        DEFAULT: '#81B6E3',          // Sin opacidad (100% opaco)
+        DEFAULT: '#81B6E3', // Sin opacidad (100% opaco)
         50: 'rgba(129, 182, 227, 0.5)', // 50% de opacidad
         20: 'rgba(129, 182, 227, 0.2)',
       },
       orange: {
-        DEFAULT: '#F07318',          // Sin opacidad (100% opaco)
+        DEFAULT: '#F07318', // Sin opacidad (100% opaco)
         50: 'rgba(240, 115, 24, 0.5)', // 50% de opacidad
         20: 'rgba(240, 115, 24, 0.2)',
       },
       pink: {
-        DEFAULT: '#EA8BB7',          // Sin opacidad (100% opaco)
+        DEFAULT: '#EA8BB7', // Sin opacidad (100% opaco)
         50: 'rgba(234, 139, 183, 0.5)', // 50% de opacidad
       },
       yellow: {
-        DEFAULT: '#FDDB64',          // Sin opacidad (100% opaco)
+        DEFAULT: '#FDDB64', // Sin opacidad (100% opaco)
         50: 'rgba(253, 219, 100, 0.5)', // 50% de opacidad
       },
       brown: {
-        DEFAULT: '#31261F',          // Sin opacidad (100% opaco)
+        DEFAULT: '#31261F', // Sin opacidad (100% opaco)
         50: 'rgba(49, 38, 31, 0.5)', // 50% de opacidad
       },
       black: {
-        DEFAULT: '#000000',          // Sin opacidad (100% opaco)
+        DEFAULT: '#000000', // Sin opacidad (100% opaco)
         50: 'rgba(0, 0, 0, 0.5)', // 50% de opacidad
       },
       white: {
-        DEFAULT: '#ffffff',          // Sin opacidad (100% opaco)
+        DEFAULT: '#ffffff', // Sin opacidad (100% opaco)
         50: 'rgba(255, 255, 255, 0.5)', // 50% de opacidad
       },
-      gray:{
-        DEFAULT:'rgba(50, 50, 50, 0.6)'           ,//Sin opacidad (100% opaco),
-      }
+      gray: {
+        DEFAULT: 'rgba(50, 50, 50, 0.6)', //Sin opacidad (100% opaco),
+      },
     },
     screens: {
       ms: '200px',
@@ -59,12 +59,12 @@ module.exports = {
       xl: '1480px',
     },
     extend: {
-      backgroundImage:{
-        'bgBanner': 'url("https://w0.peakpx.com/wallpaper/24/75/HD-wallpaper-happy-father-s-day-black-hand-day-child-white-father.jpg")'
+      backgroundImage: {
+        bgBanner:
+          'url("https://github.com/duvan29/DaleQueValen/blob/developer/src/assets/img/bgbannerhome.jpg?raw=true")',
       },
     },
   },
   variants: {},
   plugins: [],
-}
-
+};
