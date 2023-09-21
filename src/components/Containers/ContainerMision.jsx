@@ -12,7 +12,7 @@ const ContainerMisionCarousel = ({ mision }) => {
         </div>
       </div>
       <div className='-ml-[140px] -mr-[140px] bg-blue-50'>
-        <Carousel>
+        <Carousel useFlexStyle={true}>
           {mision.map((mision) => (
             <CardMision
               key={mision.id} // Agrega una clave única aquí
