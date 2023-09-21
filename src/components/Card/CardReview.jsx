@@ -3,8 +3,8 @@ import React from 'react';
 
 const CardReview = ({ name, profession, testimonio }) => {
   return (
-    <div className="border-yellow border-[6px] w-[360px] h-[480px] relative flex justify-center items-center mb-10">
-      <div className="w-[300px] h-[420px] relative p-10 bg-yellow-50">
+    <div className="border-yellow border-[6px] ms:min-h-[200px] ms:mx-[15px] lg:mx-[0px] lg:w-[360px] ms:w-full ms:p-[25px] lg:h-[480px] relative flex justify-center items-center mb-10">
+      <div className="lg:w-[300px] lg:h-[420px] ms:h-full ms:w-full relative lg:p-10 ms:p-8 bg-yellow-50">
         <h5 className="relative z-10 h-[300px]  overflow-hidden mb-[5px]">
           {testimonio}
         </h5>
