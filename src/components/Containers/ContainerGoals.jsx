@@ -1,14 +1,15 @@
 // CardGoalsContainer.js
 import React from 'react';
 import CardGoals from '../Card/CardGoals';
+import ModalGoals from '../ModalGoals/ModalGoals';
 
 const CardGoalsContainer = () => {
   return (
-    <div className="pt-[60px] pb-[60px]">
+    <div className=" md:pt-[60px] md:pb-[60px] ms:pt-[20px] ms:pb-[20px] md:px-[50px] md:py-[30px]">
       <h1 className="mb-[40px] ms:text-black ms:text-center md:text-purple ms:text-[14px] md:text-[32px] md:text-left ">
         NUESTROS OBJETIVOS
       </h1>
-      <div className="flex flex-wrap justify-evenly ">
+      <div className="flex flex-wrap ms:justify-evenly md:justify-between relative">
         <CardGoals
           description="Sobre la condición de Valentino y tantos niños excluidos del sistema."
           icon="Eye"
