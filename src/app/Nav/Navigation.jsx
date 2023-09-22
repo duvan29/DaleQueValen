@@ -1,43 +1,19 @@
 'use client';
 
-import React from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
-import { usePathname } from 'next/navigation';
-import { Images } from '@/assets/img';
-import ReusableButton from '@/components/ReusableButton/ReusableButton';
+import React from "react";
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { Images } from "@/assets/img";
+import ReusableButton from "@/components/ReusableButton/ReusableButton";
+import links from "@/mock/mockNavLinks";
+
 
 export default function Navigation() {
   const pathname = usePathname();
 
-  const links = [
-    {
-      label: 'Home',
-      route: '/',
-    },
-    {
-      label: 'Conocenos',
-      route: '/conocenos',
-    },
-    {
-      label: 'Proyectos',
-      route: '/proyectos',
-    },
-    {
-      label: 'Sumate',
-      route: '/sumate',
-    },
-  ];
-
   return (
-    // <div className={`${pathname=='/' ? '':'sticky top-0 z-50 bg-white'} pr-[40px] pl-[40px] absolute left-0 right-0`}>
-    <div
-      className={`${
-        pathname == '/'
-          ? 'pr-[40px] pl-[40px] absolute left-0 right-0'
-          : 'fixed top-0 left-0 right-0 z-50 bg-white-50 px-[45px]'
-      } `}
-    >
+    <div className={`${pathname=='/' ? 'pr-[40px] pl-[40px] absolute left-0 right-0':'fixed top-0 left-0 right-0 z-50 bg-white-50 px-[45px]'} hidden lg:block`}>
       <header className="flex items-center justify-between">
         <Link
           href="/"
