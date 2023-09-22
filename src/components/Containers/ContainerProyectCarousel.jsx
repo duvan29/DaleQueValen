@@ -13,9 +13,9 @@ const ContainerProyectCarousel = ({ proyects }) => {
         </div>
         <div className='md:flex md:justify-end md:w-[50%] ms:hidden'>
           <Link href='/sumate' className="w-[275px]">
-              <ReusableButton className='bg-orange' color="orange" border='orange' text='black' width="full" >
-                Quiero Colaborar
-              </ReusableButton>
+              <button className='bg-orange-20 w-full h-16 px-4 py-3 hover:bg-orange transition-all duration-500 ease-in-out flex items-center justify-center border-2 border-orange text-gray hover:text-white rounded-xl'>
+                <h6>Quiero Colaborar</h6>
+              </button>
           </Link>
         </div>
       </div>
