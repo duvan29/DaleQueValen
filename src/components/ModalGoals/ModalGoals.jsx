@@ -33,9 +33,7 @@ const ModalGoals = ({ children, description }) => {
 
   return (
     <div>
-      <button onClick={openModal} isOpen={isOpen}>
-        {children}
-      </button>
+      <button onClick={openModal}>{children}</button>
       {isOpen && (
         <div
           className="w-[202px] mt-6 h-[100px] bg-purple border-none rounded-md border flex items-center p-3  px-[25px] py-[10px] absolute top-[90px] ease-in-out duration-600 z-10"
