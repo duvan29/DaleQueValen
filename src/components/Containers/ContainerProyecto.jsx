@@ -19,7 +19,7 @@ function ProyectoContainer({proyects}) {
 
   return (
     <div className="mb-[40px]">
-      <div className="flex space-x-4">
+      <div className="flex md:space-x-4 ms:space-x-2">
       {proyects.map((project) => (
           <ProyectoCard
             key={project.id}
