@@ -17,10 +17,6 @@ const links = [
       label: 'Sumate',
       route: '/sumate'
     },
-    {
-        label: 'Contacto',
-        route: '/contacto'
-      },
 ];
 
 export default links
