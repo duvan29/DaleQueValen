@@ -43,6 +43,7 @@ module.exports = {
       black: {
         DEFAULT: '#000000', // Sin opacidad (100% opaco)
         50: 'rgba(0, 0, 0, 0.5)', // 50% de opacidad
+        20: 'rgba(0, 0, 0, 0.2)',
       },
       white: {
         DEFAULT: '#ffffff', // Sin opacidad (100% opaco)
