@@ -22,15 +22,23 @@ export default function NavResponsive() {
       
     return(
         <div className="fixed top-0 left-0 z-50 h-[80px] w-screen flex justify-between items-center bg-green p-4 mt-0 lg:hidden">
-            <div className={`fixed top-0 left-0 z-60 h-[98%] ${isOpen ? 'w-[60%] ':'w-0' }  bg-white transition-width duration-300 ease-in-out flex flex-col justify-between lg:hidden`}>
+            <div className={`fixed top-0 left-0 z-60 h-[100%] ${isOpen ? 'w-[60%] ':'w-0' }  bg-white transition-width duration-300 ease-in-out flex flex-col justify-between lg:hidden`}>
                <div className={` flex flex-col border-t-2 mt-[80px] text-[14px] ${isOpen ? '':'hidden'}`}>
                     {links.map(({ label, route }) => (
-                    <Link onClick={toggleMenuLogo} key={route} href={route} className="w-full mr-[30px] flex justify-between px-3 py-2">
+                    <Link onClick={toggleMenuLogo} key={route} href={route} className="w-full mr-[30px] flex justify-between px-6 py-4">
                         <p>{label}</p>
-                        <div className="bg-blue">"#"</div>
+                        <div className="w-[20px] h-auto">
+                        <Icon icon='ArrowR' />
+                        </div>
                     </Link>
                     ))
                     }
+                    <Link href='/contacto' className="w-full mr-[30px] flex justify-between px-6 py-4">
+                        <p>Contacto</p>
+                        <div className="w-[20px] h-auto">
+                        <Icon icon='ArrowR' />
+                        </div>
+                    </Link>
                </div>
                 
                 <div className={`flex flex-col text-center mb-6 ${isOpen ? '':'hidden'}`}>

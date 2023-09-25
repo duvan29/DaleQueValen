@@ -3,8 +3,8 @@ import React from 'react';
 export default function ArrowR() {
   return (
     <svg xmlns="http://www.w3.org/2000/svg" 
-        width="50%" 
-        height="50%" 
+        width="100%" 
+        height="100%" 
         fill="currentColor" 
         class="bi bi-chevron-compact-right" 
         viewBox="0 0 16 16">
