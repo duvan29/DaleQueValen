@@ -34,23 +34,25 @@ const ModalGoals = ({ children, description }) => {
   return (
     <div>
       <button onClick={openModal}>{children}</button>
-      {/* {isOpen && (
-        <div
-          className="w-[202px] mt-6 h-[100px] bg-purple border-none rounded-md border flex items-center p-3  px-[25px] py-[10px] absolute top-[90px] ease-in-out duration-600 z-10"
-          ref={modalRef}
-        >
-          <div className="relative w-auto max-w-sm md:max-w-lg lg:max-w-2xl mx-auto my-6">
-            <div className="modal-content">
-              <div className="modal-header"></div>
-              <div className="modal-body">
-                <h4 className="text-white text-center ms:text-[12px] ">
-                  {description}
-                </h4>
+      <div>
+        {isOpen && (
+          <div
+            className="right-0 w-[80vw] mt-6 h-[100px] bg-purple border-none rounded-md border flex items-center p-3 px-[25px] py-[10px] ease-in-out duration-600 z-10 absolute"
+            ref={modalRef}
+          >
+            <div className="relative  w-auto max-w-sm md:max-w-lg lg:max-w-2xl mx-auto my-6">
+              <div className="modal-content">
+                <div className="modal-header"></div>
+                <div className="modal-body">
+                  <h4 className="text-white text-center ms:text-[12px] ">
+                    {description}
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      )} */}
+        )}
+      </div>
     </div>
   );
 };

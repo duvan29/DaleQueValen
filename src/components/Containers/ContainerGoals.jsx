@@ -1,7 +1,6 @@
 // CardGoalsContainer.js
 import React from 'react';
 import CardGoals from '../Card/CardGoals';
-import ModalGoals from '../ModalGoals/ModalGoals';
 
 const CardGoalsContainer = () => {
   return (
