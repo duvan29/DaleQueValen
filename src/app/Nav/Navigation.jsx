@@ -13,7 +13,6 @@ export default function Navigation() {
   const pathname = usePathname();
 
   return (
-    // <div className={`${pathname=='/' ? '':'sticky top-0 z-50 bg-white'} pr-[40px] pl-[40px] absolute left-0 right-0`}>
     <div className={`${pathname=='/' ? 'pr-[40px] pl-[40px] absolute left-0 right-0':'fixed top-0 left-0 right-0 z-50 bg-white-50 backdrop-blur-sm px-[45px]'} hidden lg:block `}>
       <header className="flex items-center justify-between">
         <Link
