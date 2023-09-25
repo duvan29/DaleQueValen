@@ -7,7 +7,7 @@ import Icon from '@/assets/icons/icon';
 
 const Footer = () => {
   return (
-    <footer id='contacto' className='bg-green text-white h-1/2 p-5 flex md:flex-row flex-col justify-between text-center items-center -ml-[140px] -mr-[140px]'>
+    <footer id='contacto' className='bg-green text-white h-1/2 p-5 lg:flex lg:flex-row flex-col justify-between text-center items-center -ml-[140px] -mr-[140px] ms:hidden'>
       <div className='mx-32'>
         <ul>
           <div className='flex gap-6'>
