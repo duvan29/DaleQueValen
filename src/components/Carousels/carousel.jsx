@@ -1,6 +1,6 @@
 'use client';
+import Icon from '@/assets/icons/icon';
 import { useRef } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 
 
 export function Carousel({ children, useFlexStyle  }) {
@@ -64,7 +64,7 @@ export function Carousel({ children, useFlexStyle  }) {
           onClick={() => previus()}
           className='lg:w-[162px] md:w-[100px] lg:h-[140px] ms:w-[60px] ms:h-[60px] flex justify-start items-center text-gray hover:text-black'
         >
-          <BsChevronCompactLeft size="50%" />
+          <Icon icon='ArrowL' size="50%"/>
         </button>
         <div className="overflow-hidden w-full">
           <div
@@ -91,7 +91,7 @@ export function Carousel({ children, useFlexStyle  }) {
           onClick={() => next()}
           className='lg:w-[162px] lg:h-[140px] md:w-[100px]  ms:w-[60px] ms:h-[60px] flex justify-end items-center  text-gray hover:text-black'
         >
-          <BsChevronCompactRight size="50%" />
+          <Icon icon='ArrowR' size="50%"/>
         </button>
       </div>
     </>
