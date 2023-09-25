@@ -1,7 +1,8 @@
 'use client';
 import { useState, useRef, useEffect } from 'react';
+import IconText from '../IconText';
 
-const ModalGoals = ({ children, description }) => {
+const ModalGoals = ({ icon, textIcon, description }) => {
   const [isOpen, setIsOpen] = useState(false);
   const modalRef = useRef();
 
@@ -32,23 +33,20 @@ const ModalGoals = ({ children, description }) => {
   }, [isOpen]);
 
   return (
-    <div>
-      <button onClick={openModal}>{children}</button>
+    <div className="">
+      <button onClick={openModal}>
+        <IconText icon={icon} text={textIcon} isActive={isOpen} />
+      </button>
       <div>
         {isOpen && (
-          <div
-            className="right-0 w-[80vw] mt-6 h-[100px] bg-purple border-none rounded-md border flex items-center p-3 px-[25px] py-[10px] ease-in-out duration-600 z-10 absolute"
-            ref={modalRef}
-          >
-            <div className="relative  w-auto max-w-sm md:max-w-lg lg:max-w-2xl mx-auto my-6">
-              <div className="modal-content">
-                <div className="modal-header"></div>
-                <div className="modal-body">
-                  <h4 className="text-white text-center ms:text-[12px] ">
-                    {description}
-                  </h4>
-                </div>
-              </div>
+          <div className="">
+            <div
+              className=" w-[380px] h-[100px] bg-purple border-none rounded-md border flex items-center p-3 px-[25px] py-[10px] ease-in-out duration-600 z-10 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              ref={modalRef}
+            >
+              <h4 className="text-white text-center ms:text-[12px]">
+                {description}
+              </h4>
             </div>
           </div>
         )}

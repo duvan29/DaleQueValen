@@ -7,9 +7,7 @@ const CardGoals = ({ description, icon, textIcon }) => {
     <div className="md:w-[272px] md:h-full mb-10 flex flex-col justify-center items-center relative">
       <div className="md:hidden">
         {' '}
-        <ModalGoals description={description}>
-          <IconText icon={icon} text={textIcon} />
-        </ModalGoals>
+        <ModalGoals description={description} icon={icon} text={textIcon} />
       </div>
       <div className="ms:hidden md:flex">
         <IconText icon={icon} text={textIcon} />
