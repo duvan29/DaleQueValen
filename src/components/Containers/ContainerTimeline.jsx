@@ -43,7 +43,7 @@ export default function ContainerTimeline() {
             {timelineData.map((item,index)=>(
                 <TimelineItem key={index} year={item.year} imageSrc1={item.imageSrc1} imageSrc2={item.imageSrc2} text1={item.text1} text2={item.text2}/>
             ))}
-           <div className="lg:w-[370px] ms:w-[160px] lg:h-[180px] ms:h-[92px] rounded-2xl bg-blue text-white flex items-center justify-center relative top-0 left-1/2 transform -translate-x-1/2 px-2 text-center">
+           <div className="md:w-[370px] ms:w-[160px] lg:h-[180px] md:h-[120px] ms:h-[92px] rounded-2xl bg-blue text-white flex items-center justify-center relative top-0 left-1/2 transform -translate-x-1/2 px-2 text-center">
                 <p className="md:text-[20px] ms:text-[10px]">
                     Gracias por estar ahí. Un abrazo, Arantxa y Sebastian, los papás de Valentino.
                 </p>
