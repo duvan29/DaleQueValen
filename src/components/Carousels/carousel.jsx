@@ -69,20 +69,22 @@ export function Carousel({ children, useFlexStyle  }) {
         <div className="overflow-hidden w-full">
           <div
             ref={carouselRef}
-            className="flex flex-nowrap justify-start min-h-[50px] "
+            className="flex flex-nowrap justify-between min-h-[50px] "
           >
             {children.map((child, i) => {
               return (
                 <div
                   key={i}
                   className={`min-w-full ${
-                    useFlexStyle
+                    useFlexStyle === true
                       ? 'overflow-hidden'
-                      : 'ms:min-w-[calc(100%/2)] md:min-w-[calc(100%/3)] lg:min-w-[calc(100%/4)] px-1 grid place-content-center overflow-hidden'
+                      : useFlexStyle === false
+                      ? 'ms:min-w-[calc(100%/2)] md:min-w-[calc(100%/3)] lg:min-w-[calc(100%/4)] px-1 grid place-content-center overflow-hidden'
+                      : 'ms:min-w-[calc(100%/1)] lg:min-w-[calc(100%/3)] xl:min-w-[calc(100%/4)] px-5 grid place-content-center overflow-hidden'
                   }`}
                 >
-                {child}
-              </div>
+                  {child}
+                </div>
               );
             })}
           </div>
