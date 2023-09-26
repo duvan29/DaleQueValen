@@ -9,7 +9,7 @@ export default function IconText({ icon, text, isActive }) {
   return (
     <div className="flex justify-center items-center ms:flex-col ms:gap-[5px] md:flex-row ">
       <div
-        className={`h-14 w-14 ms:rounded-full ms:border-2 ms:border-purple ms:h-[86px] ms:w-[84px] ms:py-[16px] ms:px-[16px] md:border-none w-10 text-purple ${buttonClass}`}
+        className={`h-14 w-14 ms:rounded-full ms:border-2 ms:border-purple ms:h-[86px] ms:w-[84px] ms:py-[16px] ms:px-[16px] md:border-none text-purple ${buttonClass}`}
       >
         <Icon icon={icon} />
       </div>
