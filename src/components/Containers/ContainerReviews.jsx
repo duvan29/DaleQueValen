@@ -1,11 +1,12 @@
 import React from 'react';
 import CardReview from '../Card/CardReview';
+import { Carousel } from '../Carousels/carousel';
 
 const ContainerReviews = () => {
   return (
     <div className='pt-[60px] pb-[60px]'> 
     <h1 className='md:text-black  md:text-[30px] md:text-left ms:mb-[12px] md:mb-[40px]  ms:text-center ms:text-black ms:text-[14px]'>TESTIMONIOS</h1>
-        <div className="flex flex-wrap justify-between">
+        <Carousel>
             <CardReview
                 testimonio="Sobre la condición de Valentino y tantos niños excluidos del sistema. Sobre la condición de Valentino y tantos niños excluidos del sistema. Sobre la condición de Valentino y tantos niños excluidos del sistema. Sobre la condición de Valentino y tantos niños excluidos del sistema."
                 name="Eye"
@@ -21,7 +22,7 @@ const ContainerReviews = () => {
                 name="Pc"
                 profession="CAPACITAR"
             />
-        </div>
+        </Carousel>
 </div>
   );
 };
