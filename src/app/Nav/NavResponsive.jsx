@@ -51,7 +51,7 @@ export default function NavResponsive() {
                     </Link>
                     ))
                     }
-                    <Link href='/contacto' className="w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl">
+                    <Link href='/contacto' className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == '/contacto' ? 'bg-green-50':''}`}>
                         <p>Contacto</p>
                         <div className="w-[20px] h-auto">
                         <Icon icon='ArrowR' />
@@ -59,34 +59,33 @@ export default function NavResponsive() {
                     </Link>
                </div>
                 
-                <div className={`flex flex-col text-center mb-6 ${isOpen ? '':'hidden'}`}>
+               <div className={`flex flex-col text-center mb-6 ${isOpen ? '':'hidden'}`}>
+                    
                     <p className='mb-3'>Seguinos en redes:</p>
+                    
                     <div className='flex justify-evenly mb-6'>
-                        <Link
-                        className='w-10 hover:text-[#8e83bc]'
-                        href={"https://www.instagram.com/dalequevalen/"}
-                        target='_blank'>
-                        <Icon
-                        icon="Instagram"
-                        />
+                        <Link className='w-10 hover:text-[#8e83bc]'
+                            href={"https://www.instagram.com/dalequevalen/"}
+                            target='_blank'>
+                            <Icon
+                            icon="Instagram"
+                            />
                         </Link>
-
-                        <Link
-                        className='w-10 hover:text-purple'
-                        href={"https://www.facebook.com/"}
-                        target='_blank'>
-                        <Icon
-                        icon="Facebook"
-                        />
+            
+                        <Link className='w-10 hover:text-purple'
+                            href={"https://www.facebook.com/"}
+                            target='_blank'>
+                            <Icon
+                            icon="Facebook"
+                            />
                         </Link>
-
-                        <Link
-                        className='w-10 hover:text-[#8e83bc]'
-                        href={"https://www.linkedin.com/"}
-                        target='_blank'>
-                        <Icon
-                        icon="Linkedin"
-                        />
+            
+                        <Link className='w-10 hover:text-[#8e83bc]'
+                            href={"https://www.linkedin.com/"}
+                            target='_blank'>
+                            <Icon
+                            icon="Linkedin"
+                            />
                         </Link>
                     </div>
                 </div>
