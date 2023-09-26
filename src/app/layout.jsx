@@ -1,12 +1,12 @@
 
 import './globals.css';
 import { Inter } from 'next/font/google';
-import Navigation from './Nav/Navigation.jsx';
-import NavResponsive from './Nav/NavResponsive';
+import Navigation from '../components/Nav/Navigation.jsx';
+import NavResponsive from '../components/Nav/NavResponsive';
 import Footer from '../components/Foooter/Footer';
 import { createIconsTypes } from '@/utils/createIcons';
-
 const inter = Inter({ subsets: ['latin'] });
+import SocialNetworks from '@/components/SocialNetworks/socialNetworks';
 
 
 export const metadata = {
@@ -27,6 +27,7 @@ export default function RootLayout({ children }) {
         <NavResponsive/>
           {children}
         {<Footer/>}
+        <SocialNetworks/>
       </body>
     </html>
   );
