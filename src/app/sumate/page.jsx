@@ -1,3 +1,4 @@
+import CallToAction from '@/components/CallToAction/CallToAction';
 import SectionTitle from '@/components/SectionTitle/SectionTitle';
 
 export default function Sumate() {
@@ -9,6 +10,7 @@ export default function Sumate() {
           Estamos Trabajando la seccion de Sumate
         </h1>
       </div>
+      <CallToAction  bgColor="purple"/>
     </main>
   );
 }
