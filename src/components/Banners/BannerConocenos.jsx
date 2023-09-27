@@ -22,8 +22,8 @@ const BannerConocenos = () => {
       </div>
         <div className="md:h-[408px] ms:h-[120px] ms:mb-[12px] md:mb-[0px] flex justify-end">
           <Image
-            src={Images.workTeam.Funder}
-            className='object-cover w-[371px] h-[408px] ms:w-full ms:h-full rounded-2xl'
+            src={Images.empresa.AboutUS}
+            className='lg:object-top ms:object-cover ms:object-top min-w-[371px] h-[408px] ms:w-full ms:h-full rounded-2xl'
           />
         </div>
       </div>

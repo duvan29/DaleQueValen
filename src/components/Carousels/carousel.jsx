@@ -80,7 +80,7 @@ export function Carousel({ children, useFlexStyle  }) {
                       ? 'overflow-hidden'
                       : useFlexStyle === false
                       ? 'ms:min-w-[calc(100%/2)] md:min-w-[calc(100%/3)] lg:min-w-[calc(100%/4)] px-1 grid place-content-center overflow-hidden'
-                      : 'ms:min-w-[calc(100%/1)] lg:min-w-[calc(100%/2)] xl:min-w-[calc(100%/4)] px-5 grid place-content-center overflow-hidden'
+                      : 'ms:min-w-[calc(100%/1)] lg:min-w-[calc(100%/3)] xl:min-w-[calc(100%/4)] px-5 grid place-content-center overflow-hidden'
                   }`}
                 >
                   {child}

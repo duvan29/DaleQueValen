@@ -61,8 +61,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        bgBanner:
-          'url("https://github.com/duvan29/DaleQueValen/blob/developer/src/assets/img/bgbannerhome.jpg?raw=true")',
+        bgBanner:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/Banner%20sonrisa%20valen.webp")',
+        bgBanner2:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/Banner%20Sumate.webp")',
       },
     },
   },
