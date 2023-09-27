@@ -15,6 +15,10 @@ import LogoGreen from './logo/DQV - verde-8.png'
 import Funder from './workTeam/istockphoto-1281083606-612x612.jpg'
 
 
+// Importar las imagenes 'Animals'
+import Lion from './animals/photo1692895602-removebg-preview.png'
+import Elephant from './animals/photo1692895589-removebg-preview.png'
+
 // Exporta todas las imágenes organizadas en un objeto
 export const Images = {
     logos:{
@@ -31,5 +35,9 @@ export const Images = {
     },
     workTeam:{
         Funder
+    },
+    animals:{
+        Lion,
+        Elephant
     }
 }

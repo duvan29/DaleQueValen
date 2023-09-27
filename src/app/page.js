@@ -1,4 +1,5 @@
 import BannerHome from '@/components/Banners/BannerHome';
+import CallToAction from '@/components/CallToAction/CallToAction';
 import CardGoalsContainer from '@/components/Containers/ContainerGoals';
 import ContainerProyectCarousel from '@/components/Containers/ContainerProyectCarousel';
 import ContainerReviews from '@/components/Containers/ContainerReviews';
@@ -15,7 +16,8 @@ export default function Home() {
       <CardGoalsContainer />
       <ContainerProyectCarousel proyects={proyects} />
       <Founder />
-      <ContainerReviews />
+      <ContainerReviews/>
+      <CallToAction/>
     </main>
   );
 }
