@@ -7,6 +7,7 @@ import equipo from '@/mock/mockEquipoDeTrabajo';
 
 import ContainerTimeline from "@/components/Containers/ContainerTimeline";
 import { Container } from 'postcss';
+import CallToAction from '@/components/CallToAction/CallToAction';
 
 export default function Conocenos() {
 
@@ -17,6 +18,7 @@ export default function Conocenos() {
       <ContainerMisionCarousel mision={mision} />
       <ContainerTimeline/>
       <ContainerTeam equipo={equipo}/>
+      <CallToAction  bgColor="blue"/>
     </main>
   );
 }

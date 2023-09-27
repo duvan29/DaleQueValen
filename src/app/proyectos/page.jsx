@@ -1,3 +1,4 @@
+import CallToAction from "@/components/CallToAction/CallToAction";
 import ProyectoContainer from "@/components/Containers/ContainerProyecto";
 import SectionTitle from "@/components/SectionTitle/SectionTitle";
 import proyects from "@/mock/mockProyects";
@@ -8,6 +9,7 @@ export default function Proyectos() {
     <main>
       <SectionTitle bgColor="orange" className='bg-orange' title="Proyectos" />
       <ProyectoContainer proyects={proyects}/>
+      <CallToAction  bgColor="orange"/>
     </main>
   );
 }
