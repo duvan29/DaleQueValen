@@ -14,7 +14,7 @@ const CallToAction = ({bgColor}) => {
             <div className="w-[42%] flex justify-end absolute pr-10 -mt-[40px] ">
                 <Image
                 src={Images.animals.Elephant}
-                className='h-[240px] w-[205px] object-cover'
+                className='h-[240px] w-[230px] object-cover'
                 />
             </div>
         </div>
