@@ -1,5 +1,6 @@
 import BannerSumate from '@/components/Banners/BannerSumate';
 import SectionTitle from '@/components/SectionTitle/SectionTitle';
+import SectionDonarDinero from '@/components/SectionDonarDinero/SectionDonarDinero';
 
 export default function Sumate() {
   return (
@@ -8,6 +9,8 @@ export default function Sumate() {
       <div className="h-[700px] flex justify-center items-center text-center">
         <BannerSumate />
       </div>
+      <SectionDonarDinero/>    
+
     </main>
   );
 }

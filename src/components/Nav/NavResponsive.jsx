@@ -80,7 +80,7 @@ export default function NavResponsive() {
                             />
                         </Link>
             
-                        <Link className='w-10 hover:text-[#8e83bc]'
+                        <Link className='w-12 hover:text-[#8e83bc]'
                             href={"https://www.linkedin.com/"}
                             target='_blank'>
                             <Icon
