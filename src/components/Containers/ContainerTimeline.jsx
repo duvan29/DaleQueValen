@@ -34,17 +34,19 @@ export default function ContainerTimeline() {
       
     ]
     return(
-        <div className="mb-10">
+        <div className="ld:mb-10 ms:mb-[25px]">
             <div className='flex '>
-                <div className='w-[50%] flex items-center justify-start'>
-                    <h1 className='text-blue mb-[40px]'>Cómo nace Dale Que Valen</h1>
+                <div className='w-full flex items-center ms:justify-center md:justify-start ms:mb-[12px] md:mb-[40px]'>
+                    <h1 className='md:text-blue  md:text-[30px] md:text-left  ms:text-center ms:text-black ms:text-[14px]'>Cómo nace Dale Que Valen</h1>
                 </div>
             </div>
             {timelineData.map((item,index)=>(
                 <TimelineItem key={index} year={item.year} imageSrc1={item.imageSrc1} imageSrc2={item.imageSrc2} text1={item.text1} text2={item.text2}/>
             ))}
-           <div className="w-[370px] h-[180px] rounded-2xl bg-blue text-white flex items-center justify-center relative top-0 left-1/2 transform -translate-x-1/2 text-[20px] font-bold text-center">
-           Gracias por estar ahí. <br/> Un abrazo, <br/>Arantxa y Sebastian, los papás de Valentino.
+           <div className="md:w-[370px] ms:w-[160px] lg:h-[180px] md:h-[120px] ms:h-[92px] rounded-2xl bg-blue text-white flex items-center justify-center relative top-0 left-1/2 transform -translate-x-1/2 px-2 text-center">
+                <p className="md:text-[20px] ms:text-[10px]">
+                    Gracias por estar ahí. Un abrazo, Arantxa y Sebastian, los papás de Valentino.
+                </p>
             </div>
         </div>
         

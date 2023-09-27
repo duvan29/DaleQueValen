@@ -43,6 +43,7 @@ module.exports = {
       black: {
         DEFAULT: '#000000', // Sin opacidad (100% opaco)
         50: 'rgba(0, 0, 0, 0.5)', // 50% de opacidad
+        20: 'rgba(0, 0, 0, 0.2)',
       },
       white: {
         DEFAULT: '#ffffff', // Sin opacidad (100% opaco)
@@ -56,7 +57,7 @@ module.exports = {
       ms: '200px',
       md: '700px',
       lg: '1200px',
-      xl: '1480px',
+      xl: '1800px',
     },
     extend: {
       backgroundImage: {
