@@ -9,7 +9,7 @@ const CardGoalsContainer = () => {
       <h1 className="mb-[40px] ms:text-black ms:text-center md:text-purple ms:text-[14px] md:text-[32px] md:text-left ">
         NUESTROS OBJETIVOS
       </h1>
-      <div className="flex flex-wrap ms:justify-evenly lg:justify-between md:justify-around">
+      <div className="flex flex-wrap ms:justify-evenly xl:justify-between md:justify-around">
         <CardGoals
           description="Sobre la condición de Valentino y tantos niños excluidos del sistema."
           icon="Eye"

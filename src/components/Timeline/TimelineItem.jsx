@@ -14,7 +14,7 @@ export default function TimelineItem({ year, text1, text2, imageSrc1, imageSrc2,
         {/* Cuadro de imagen 1 */}
         <div className="w-1/2 pl-4 flex justify-center">
           <div className=" rounded-xl overflow-hidden max-w-[470px] mr-4 max-h-[315px]">
-            <Image src={imageSrc1} alt={`Imagen ${year}-1`} className="w-full h-full object-cover" />
+            <Image src={imageSrc1} alt={`Imagen ${year}-1`} className="w-full" />
           </div>
         </div>
 

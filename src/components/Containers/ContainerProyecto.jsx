@@ -18,7 +18,7 @@ function ProyectoContainer({proyects}) {
   }, []); // El segundo argumento vacío asegura que esto solo se ejecute una vez al cargar la página
 
   return (
-    <div className="mb-[40px]">
+    <div className="ms:mb-[40px] lg:mb-[80px]">
       <div className="flex md:space-x-4 ms:space-x-2">
       {proyects.map((project) => (
           <ProyectoCard
@@ -38,12 +38,23 @@ function ProyectoContainer({proyects}) {
               alt={selectedProject.title}
               className="md:h-[270px] ms:h-[165px] w-full object-cover md:rounded-b-lg"
             />
-            <h1 className="absolute inset-0 flex items-center justify-center text-center text-orange bg-black-20 md:rounded-b-lg">
+            <h1 className="absolute inset-0 flex items-center justify-center text-center text-orange bg-black-50 md:rounded-b-lg">
               {selectedProject.title}
             </h1>
           </div>
+          
           <div className='ms:p-5 md:p-0 ms:bg-orange-20 md:bg-white ms:rounded-b-lg'>
-            <p className='ms:text-[10px] md:text-[16px]'>{selectedProject.complete}</p>
+            <h6 className='ms:text-[14px] md:text-[20px]'>Resumen</h6>
+            <p className='mb-[30px] ms:text-[10px] md:text-[16px]'>{selectedProject.description}</p>
+            <h6 className='ms:text-[14px] md:text-[20px]'>{selectedProject.title}</h6>
+            {
+              selectedProject.complete.split('\n\n').map((paragraph, index) => (
+                <p key={index} className='ms:text-[10px] md:text-[16px]'>
+                  {paragraph}
+                  <br /><br /> {/* Dos saltos de línea */}
+                </p>
+            ))
+          }
           </div>
           </div>
         )}
