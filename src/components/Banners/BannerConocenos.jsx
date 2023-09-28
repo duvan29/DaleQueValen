@@ -20,10 +20,10 @@ const BannerConocenos = () => {
           Buscamos acortar la brecha geográfica, medicinal y terapéutica que existe entre Tucumán y los países desarrollados, consiguiendo los elementos ortopédicos y la capacitación necesaria para obtener resultados similares a los de esos países.
         </h4>
       </div>
-        <div className="md:h-[408px] ms:h-[120px] ms:mb-[12px] md:mb-[0px] flex justify-end">
+        <div className="md:h-[408px] ms:h-[300px] ms:mb-[12px] md:mb-[0px] flex justify-end">
           <Image
             src={Images.empresa.AboutUS}
-            className='lg:object-top ms:object-cover ms:object-top min-w-[371px] h-[408px] ms:w-full ms:h-full rounded-2xl'
+            className='lg:object-top ms:object-cover min-w-[371px] h-[408px] ms:w-full ms:h-full rounded-2xl'
           />
         </div>
       </div>

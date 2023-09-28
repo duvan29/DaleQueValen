@@ -38,7 +38,7 @@ function ProyectoContainer({proyects}) {
               alt={selectedProject.title}
               className="md:h-[270px] ms:h-[165px] w-full object-cover md:rounded-b-lg"
             />
-            <h1 className="absolute inset-0 flex items-center justify-center text-center text-orange bg-black-20 md:rounded-b-lg">
+            <h1 className="absolute inset-0 flex items-center justify-center text-center text-orange bg-black-50 md:rounded-b-lg">
               {selectedProject.title}
             </h1>
           </div>
@@ -47,12 +47,14 @@ function ProyectoContainer({proyects}) {
             <h6 className='ms:text-[14px] md:text-[20px]'>Resumen</h6>
             <p className='mb-[30px] ms:text-[10px] md:text-[16px]'>{selectedProject.description}</p>
             <h6 className='ms:text-[14px] md:text-[20px]'>{selectedProject.title}</h6>
-              {selectedProject.complete.split('\n').map((paragraph, index) => (
+            {
+              selectedProject.complete.split('\n\n').map((paragraph, index) => (
                 <p key={index} className='ms:text-[10px] md:text-[16px]'>
                   {paragraph}
-                  {'\n'} {/* Salto de línea */}
+                  <br /><br /> {/* Dos saltos de línea */}
                 </p>
-              ))}
+            ))
+          }
           </div>
           </div>
         )}

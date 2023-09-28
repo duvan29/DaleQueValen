@@ -36,6 +36,11 @@ import ColaborarRedes from './sumate/Asociarse como familia .webp'
 import DonarDinero from './sumate/Donar Dinero.webp'
 import SerVoluntario from './sumate/Ser Voluntario.webp'
 
+// Importar las imagenes de Proyects'
+import Pley from './proyects/Proyecto de Ley.webp'
+import PEduTech from './proyects/Proyecto EduTech.webp'
+import PTrexo from './proyects/Proyecto Trexo Robbie.webp'
+
 // Exporta todas las imágenes organizadas en un objeto
 export const Images = {
     logos:{
@@ -73,5 +78,10 @@ export const Images = {
         ColaborarRedes,
         DonarDinero,
         SerVoluntario
+    },
+    Proyects:{
+        Pley,
+        PEduTech,
+        PTrexo
     }
 }

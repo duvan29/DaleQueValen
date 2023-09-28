@@ -21,7 +21,7 @@ export default function SectionDonarDinero() {
                 
                 <div className="text-right mt-1 md:flex md:items-center md:justify-start">
                     <h6 className="text-[12px] md:text-left mb-2 text-purple underline md:text-[20px] md:mx-auto cursor-pointer" onClick={toggleText}>{isOpen ? 'Ocultar':'Ver'} Datos Bancarios</h6>
-                    <Link href="#" className="bg-purple px-8 py-3 rounded-xl inline-block text-white">
+                    <Link href="https://donaronline.org/fundacion-dale-que-valen/pequenos-heroes-grandes-suenos" target="_blank" className="bg-purple px-8 py-3 rounded-xl inline-block text-white">
                         <h2 className="text-[12px] md:text-[24px] md:px-6 md:py-2">Donar</h2>
                     </Link>
                 </div>
