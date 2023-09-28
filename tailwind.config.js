@@ -17,6 +17,7 @@ module.exports = {
       purple: {
         DEFAULT: '#8E83BC', // Sin opacidad (100% opaco)
         50: 'rgba(142, 131, 188, 0.5)', // 50% de opacidad
+        30: 'rgba(221, 218, 235, 1)', // 30% de opacidad
       },
       blue: {
         DEFAULT: '#81B6E3', // Sin opacidad (100% opaco)
