@@ -6,7 +6,7 @@ const BannerHome = () => {
       <div
         className="w-full  md:w-full lg:w-[570px] lg:relative lg:h-[328px] lg:bottom-[403px]  bg-white-50 border-none rounded-md border p-4 md:p-12 mb-4 md:mb-12 xl:mb-100 ms:shadow-none lg:shadow-lg "
         style={{
-          maxWidth: '1200px',
+          maxWidth: "1200px",
         }}
       >
         <h4 className="ms:text-[12px] md:text-[20px]">
