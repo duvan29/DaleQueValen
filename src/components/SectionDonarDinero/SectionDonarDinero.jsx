@@ -14,7 +14,7 @@ export default function SectionDonarDinero() {
 
     return(<section>
         <div className="flex w-full mb-3 lg:my-8 bg-purple-50 rounded-2xl lg:justify-between lg:py-10">
-            <Image src={Images.workTeam.Funder} className="w-[40%] lg:w-[30%] rounded-2xl object-cover lg:mx-auto "/>
+            <Image src={Images.Sumate.DonarDinero} className="w-[40%] lg:w-[30%] rounded-2xl object-cover lg:h-[400px] lg:mx-auto "/>
             <div className="flex-col w-[60%] lg:w-[50%] px-4 py-3 lg:pl-0 lg:pr-20 lg:my-auto">
                 <h2 className="text-center text-[12px] mb-2 lg:text-purple lg:uppercase lg:text-[24px] lg:mb-5">Donar Dinero</h2>
                 <h4 className="text-[10px] lg:text-[20px]">Podes ayudarnos a alcanzar nuestros objetivos con una donación económica a través del link de pago al hacer click en ‘Donar’ o a través de una trasferencia bancaria. </h4>
