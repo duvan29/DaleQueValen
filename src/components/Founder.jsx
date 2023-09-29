@@ -4,7 +4,7 @@ import Image from "next/image";
 const Founder = () => {
   return (
     <>
-      <h1 className=" ms:mb-[12px] ms:text-center ms:text-black ms:text-[14px] md:hidden">fundador</h1>
+      <h1 className=" ms:mb-[12px] ms:text-center ms:text-black ms:text-[14px] md:hidden">fundadora</h1>
       <div className="flex justify-around items-center flex-row lg:pr-[300px] lg:pl-[300px]">
         {/* Sección izquierda con la foto */}
         <div className=" p-4">
