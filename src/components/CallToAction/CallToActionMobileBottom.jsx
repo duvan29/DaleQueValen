@@ -5,9 +5,9 @@ const CallToAction = ({ bgColor }) => {
   const backgroundColor = `${bgColor ? `bg-${bgColor}` : ` bg-yellow-50 `}`;
 
   return (
-    <div className="lg:hidden w-full flex flex-col">
+    <div className="w-full flex flex-col">
       <div
-        className={`${backgroundColor} w-full md:h-[160px] ms:h-[100px] relative flex`}
+        className={`${backgroundColor} md:h-[160px] ms:-ml-[40px] ms:-mr-[15px]  ms:h-[100px] mt-10 relative flex px-[50px]`}
       >
         <div className="ms:w-full h-full flex">
           <div className="w-full flex  text-center items-center">
