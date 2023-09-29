@@ -43,7 +43,7 @@ export default function NavResponsive() {
             <div ref={menuRef} className={`fixed top-0 left-0 z-60 h-[100%] ${isOpen ? 'w-[60%] ':'w-0' }  bg-white transition-width duration-300 ease-in-out flex flex-col justify-between lg:hidden`}>
                <div className={` flex flex-col border-t-2 mt-[80px] text-[14px] px-2 ${isOpen ? '':'hidden'}`}>
                     {links.map(({ label, route }) => (
-                    <Link onClick={toggleMenuLogo} key={route} href={route} className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == route ? 'bg-green-50':''}`}>
+                    <Link onClick={toggleMenuLogo} key={route} href={route} className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == route ? 'bg-green-50':''} hover:bg-green`}>
                         <p>{label}</p>
                         <div className="w-[20px] h-auto">
                         <Icon icon='ArrowR' />
@@ -51,7 +51,7 @@ export default function NavResponsive() {
                     </Link>
                     ))
                     }
-                    <Link onClick={toggleMenuLogo} href='/contacto' className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == '/contacto' ? 'bg-green-50':''}`}>
+                    <Link onClick={toggleMenuLogo} href='/contacto' className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == '/contacto' ? 'bg-green-50':''} hover:bg-green`}>
                         <p>Contacto</p>
                         <div className="w-[20px] h-auto">
                         <Icon icon='ArrowR' />
