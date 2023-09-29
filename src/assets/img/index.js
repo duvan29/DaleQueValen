@@ -1,6 +1,6 @@
 // Importar las imagenes 'logo'
-import LogoWhite from './logo/DQV - Blanco negativo-8.webp'
-import LogoGreen from './logo/logo verde.webp'
+import LogoWhite from './logo/DQV-Blanconegativo-8.webp'
+import LogoGreen from './logo/logoverde.webp'
 
 
 // Importar las imagenes 'workTeam'
@@ -12,34 +12,33 @@ import Lion from './animals/leon.webp'
 import Elephant from './animals/elefante.webp'
 
 // Importar las imagenes de Banner'
-import BannerSonrisa from './Banner/Banner sonrisa valen.webp'
-import BannerSumate from './Banner/Banner sumate.webp'
-import bgbannerhome from './Banner/bgbannerhome.jpg'
+import BannerSonrisa from './Banner/Bannersonrisavalen.webp'
+import BannerSumate from './Banner/Bannersumate.webp'
 
 // Importar las imagenes de empresa'
 import Mision from './empresa/Misión.webp'
-import AboutUS from './empresa/quienes somos.webp'
-import Valores from './empresa/Valores .webp'
+import AboutUS from './empresa/quienessomos.webp'
+import Valores from './empresa/Valores.webp'
 import Vision from './empresa/Vision.webp'
 
 // Importar las imagenes de TimeLine'
-import Lt1 from './Linea de tiempo/Linea del tiempo 1.webp'
-import Lt2 from './Linea de tiempo/Linea del tiempo 2.webp'
-import Lt3 from './Linea de tiempo/Linea del tiempo 3.webp'
-import Lt22 from './Linea de tiempo/Linea del tiempo 2022.webp'
-import Lt23 from './Linea de tiempo/Linea del tiempo 2023.webp'
+import Lt1 from './Lineadetiempo/Lineadeltiempo1.webp'
+import Lt2 from './Lineadetiempo/Lineadeltiempo2.webp'
+import Lt3 from './Lineadetiempo/Lineadeltiempo3.webp'
+import Lt22 from './Lineadetiempo/Lineadeltiempo2022.webp'
+import Lt23 from './Lineadetiempo/Lineadeltiempo2023.webp'
 
 // Importar las imagenes de Suimate'
-import AsiciarseFamily from './sumate/Asociarse como familia .webp'
-import ColaborarEquipo from './sumate/colabora con equipamiento o insumos.webp'
-import ColaborarRedes from './sumate/Asociarse como familia .webp'
-import DonarDinero from './sumate/Donar Dinero.webp'
-import SerVoluntario from './sumate/Ser Voluntario.webp'
+import AsiciarseFamily from './sumate/Asociarsecomofamilia.webp'
+import ColaborarEquipo from './sumate/colaboraconequipamientooinsumos.webp'
+import ColaborarRedes from './sumate/Colaboraenredessociales.webp'
+import DonarDinero from './sumate/DonarDinero.webp'
+import SerVoluntario from './sumate/SerVoluntario.webp'
 
 // Importar las imagenes de Proyects'
-import Pley from './proyects/Proyecto de Ley.webp'
-import PEduTech from './proyects/Proyecto EduTech.webp'
-import PTrexo from './proyects/Proyecto Trexo Robbie.webp'
+import Pley from './proyects/ProyectodeLey.webp'
+import PEduTech from './proyects/ProyectoEduTech.webp'
+import PTrexo from './proyects/ProyectoTrexoRobbie.webp'
 
 // Exporta todas las imágenes organizadas en un objeto
 export const Images = {
@@ -57,7 +56,6 @@ export const Images = {
     Banner:{
         BannerSonrisa,
         BannerSumate,
-        bgbannerhome
     },
     empresa:{
         Mision,
