@@ -13,7 +13,7 @@ import Elephant from './animals/elefante.webp'
 
 // Importar las imagenes de Banner'
 import BannerSonrisa from './Banner/Bannersonrisavalen.webp'
-import BannerSumate from './Banner/Bannersumate.webp'
+import BannerSumate from './Banner/BannerSumate.webp'
 
 // Importar las imagenes de empresa'
 import Mision from './empresa/Misión.webp'
