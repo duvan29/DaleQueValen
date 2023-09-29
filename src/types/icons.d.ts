@@ -1,0 +1,1 @@
+export type IconTypes = | 'ArrowL' | 'ArrowR' | 'Eye' | 'Facebook' | 'Heart' | 'icon' | 'Instagram' | 'Linkedin' | 'Mail' | 'Pc' | 'quotations' | 'Share' | 'Whatsapp' | 'Youtube' 
