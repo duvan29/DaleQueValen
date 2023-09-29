@@ -1,12 +1,15 @@
 import Link from 'next/link';
 
-export default function ButtonDonar() {
+export default function ButtonDonar({ href, action }) {
   return (
     <Link
-      href="#"
-      className="bg-purple-50 px-8 py-3 rounded-xl inline-block text-white hover:bg-purple"
+      href={href}
+      className="bg-purple-50 px-4 py-4 rounded-xl inline-block text-white hover:bg-purple mt-3"
     >
-      <h2 className="text-[12px] lg:text-[24px] lg:px-6 lg:py-2">Donar</h2>
+      <h2 className="ms:text-[12px] md:text-[20px] lg:px-6 lg:py-2 capitalize">
+        {' '}
+        {action}{' '}
+      </h2>
     </Link>
   );
 }

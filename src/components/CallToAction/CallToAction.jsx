@@ -9,7 +9,7 @@ const CallToAction = ({bgColor}) => {
         <div className={`${backgroundColor} lg:-mx-[140px] lg:px-[140px] h-[160px] relative flex`}> 
         <div className='md:w-[50%] ms:w-full h-full flex'>
             <div className="w-full flex text-center items-center" >
-                <h6 className='text-black ms:text-[12px] md:text-[24px] max-w-[300px] '>“Gracias por confiar en DALE que VALEN ;) ”</h6>
+                <h6 className='text-black ms:text-[12px] md:text-[24px] max-w-[300px] '>“Gracias por confiar en DALE que VALEN”</h6>
             </div>
             <div className="w-[42%] flex justify-end absolute pr-10 -mt-[40px] ">
                 <Image

@@ -2,7 +2,8 @@ import CallToAction from '@/components/CallToAction/CallToAction';
 import BannerSumate from '@/components/Banners/BannerSumate';
 import SectionTitle from '@/components/SectionTitle/SectionTitle';
 import SectionDonarDinero from '@/components/SectionDonarDinero/SectionDonarDinero';
-import CardDonar from '@/components/Card/CardDonar';
+import CardDonarBig from '@/components/Card/CardDonarBig';
+import CardDonarSmall from '@/components/Card/CardDonarSmall';
 
 export default function Sumate() {
   return (
@@ -12,7 +13,14 @@ export default function Sumate() {
         <BannerSumate />
       </div>
       <SectionDonarDinero />
-      <CardDonar />
+      <CardDonarBig />
+      <div className="flex flex-col justify-evenly lg:flex-row  gap-6">
+        {' '}
+        <CardDonarSmall />
+        <CardDonarSmall />
+        <CardDonarSmall />
+      </div>
+
       <CallToAction bgColor="purple" />
     </main>
   );

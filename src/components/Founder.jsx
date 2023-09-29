@@ -22,11 +22,7 @@ const Founder = () => {
           <h1 className="mb-2 text-blue ms:text-[12px] md:text-[32px]">ARANTXA OLMOS SALGADO</h1>
           <h2 className="mb-2 text-blue ms:hidden md:flex">FUNDADORA</h2>
           <h4 className="lg:w-[650px] ms:w-full ms:text-[10px] md:text-[20px]">
-            Amet ex sint irure mollit sunt ut deserunt ut cillum sit irure est
-            amet. Magna magna nostrud est labore non duis cillum. Pariatur nulla
-            ipsum cupidatat mollit magna amet occaecat voluptate enim incididunt
-            culpa. Nostrud qui culpa qui eiusmod id pariatur non fugiat esse mollit
-            ea.
+          Arantxa es una experta en marketing digital con una sólida formación académica y experiencia laboral en el campo. Su mayor logro es la fundación y dirección de "Dale que Valen", una organización sin fines de lucro en Tucumán que brinda terapias alternativas a niños con parálisis cerebral. Esta iniciativa surgió de su propia experiencia, ya que su hijo Valentino tiene parálisis cerebral. La fundación busca mejorar la calidad de vida de estos niños, ofreciéndoles terapias y apoyo especializado. Arantxa es una líder comprometida que utiliza su creatividad y solidaridad para transformar vidas.
           </h4>
         </div>
       </div>
