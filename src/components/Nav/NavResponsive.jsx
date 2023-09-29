@@ -51,7 +51,7 @@ export default function NavResponsive() {
                     </Link>
                     ))
                     }
-                    <Link href='/contacto' className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == '/contacto' ? 'bg-green-50':''}`}>
+                    <Link onClick={toggleMenuLogo} href='/contacto' className={`w-full mr-[30px] flex justify-between px-3 py-2 mt-2 rounded-3xl ${pathname == '/contacto' ? 'bg-green-50':''}`}>
                         <p>Contacto</p>
                         <div className="w-[20px] h-auto">
                         <Icon icon='ArrowR' />

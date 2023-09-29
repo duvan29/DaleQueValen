@@ -18,7 +18,7 @@ const CallToAction = ({ bgColor }) => {
           </div>
           <div className="flex justify-end text-center items-center ">
             <h6 className="text-black ms:text-[12px] md:text-[20px] w-[55%] md:mr-[80px] ms:mr-[30px]">
-              “Enterate de todas nuestras novedades en nuestras redes sociales”
+              “Enterate de todas las novedades en nuestras redes sociales”
             </h6>
           </div>
         </div>
