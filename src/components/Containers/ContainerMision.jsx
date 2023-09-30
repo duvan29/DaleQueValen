@@ -8,7 +8,7 @@ const ContainerMisionCarousel = ({ mision }) => {
       <div className="flex ">
         <div className="w-[100%] flex items-center md:justify-start ms:justify-center">
           <h1 className="md:text-blue  md:text-[30px] md:text-left  ms:text-center ms:text-black ms:text-[14px] md:mb-[40px] ms:mb-[12px]">
-            Misión, Visión, Valores
+            Mision, Vision, Valores
           </h1>
         </div>
       </div>
@@ -21,6 +21,7 @@ const ContainerMisionCarousel = ({ mision }) => {
               description={mision.description}
               title={mision.title}
               image={mision.Image}
+              z
             />
           ))}
         </Carousel>
