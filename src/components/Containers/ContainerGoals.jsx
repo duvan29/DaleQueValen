@@ -3,10 +3,11 @@ import React from "react";
 import CardGoals from "../Card/CardGoals";
 import ModalGoals from "../ModalGoals/ModalGoals";
 
+
 const CardGoalsContainer = () => {
   return (
     <div className="ms:pt-[20px] ms:pb-[20px]">
-      <h1 className="mb-[40px] ms:text-black ms:text-center md:text-purple ms:text-[14px] md:text-[32px] md:text-left ">
+      <h1 className="md:mb-[40px] ms:mb-[12px] ms:text-black ms:text-center md:text-purple ms:text-[14px] md:text-[32px] md:text-left ">
         NUESTROS OBJETIVOS
       </h1>
       <div className="flex flex-wrap ms:justify-evenly xl:justify-between md:justify-around">
