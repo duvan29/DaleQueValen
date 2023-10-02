@@ -1,14 +1,11 @@
 import React from 'react';
 import IconText from '../IconText';
-import ModalGoals from '../ModalGoals/ModalGoals';
 
 const CardGoals = ({ description, icon, textIcon }) => {
   return (
     <div className="md:w-[272px] md:h-full mb-10 flex flex-col justify-center items-center relative">
       <div className="md:hidden">
-        <ModalGoals description={description} icon={icon} text={textIcon}>
           <IconText icon={icon} text={textIcon} />
-        </ModalGoals>
       </div>
       <div className="ms:hidden md:flex">
         <IconText icon={icon} text={textIcon} />

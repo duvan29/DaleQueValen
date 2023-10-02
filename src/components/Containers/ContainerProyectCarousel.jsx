@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const ContainerProyectCarousel = ({ proyects }) => {
   return (
-    <div className='md:pt-[60px] md:pb-[60px] ms:pt-[10px] ms:pb-[10px] relative'> 
+    <div className='md:pt-[60px] md:pb-[60px] ms:pb-[10px] relative'> 
       <div className='flex ms:mb-[12px] md:mb-[40px]'>
         <div className='md:w-[50%] ms:w-[100%]'>
           <h1 className='md:text-orange  md:text-[30px] md:text-left  ms:text-center ms:text-black ms:text-[14px]'>PROYECTOS</h1>
