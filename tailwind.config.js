@@ -57,12 +57,12 @@ module.exports = {
       ms: '200px',
       md: '700px',
       lg: '1200px',
-      xl: '1480px',
+      xl: '1800px',
     },
     extend: {
       backgroundImage: {
-        bgBanner:
-          'url("https://github.com/duvan29/DaleQueValen/blob/developer/src/assets/img/bgbannerhome.jpg?raw=true")',
+        bgBanner:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/Bannersonrisavalen.webp")',
+        bgBanner2:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/BannerSumate.webp")',
       },
     },
   },

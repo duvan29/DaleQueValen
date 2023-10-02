@@ -2,7 +2,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import IconText from '../IconText';
 
-const ModalGoals = ({ icon, textIcon, description }) => {
+const ModalGoals = ({ icon, textIcon, description, children }) => {
   const [isOpen, setIsOpen] = useState(false);
   const modalRef = useRef();
 
@@ -33,12 +33,8 @@ const ModalGoals = ({ icon, textIcon, description }) => {
   }, [isOpen]);
 
   return (
-    <>
-      <div>
-        <button onClick={openModal}>
-          <IconText icon={icon} text={textIcon} isActive={isOpen} />
-        </button>
-      </div>
+    <div>
+      <button onClick={openModal}>{children}</button>
       {isOpen && (
         <div
           className=" inset-0 border-none rounded-md border flex items-end justify-center px-3 pb-7 ease-in-out duration-600"
@@ -48,7 +44,7 @@ const ModalGoals = ({ icon, textIcon, description }) => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
