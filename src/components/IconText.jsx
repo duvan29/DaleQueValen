@@ -1,5 +1,5 @@
-import React from 'react';
-import Icon from '@/assets/icons/icon'; // Importa de manera estática
+import React from "react";
+import Icon from "@/assets/icons/icon"; // Importa de manera estática
 
 export default function IconText({ icon, text, isActive }) {
   const buttonClass = isActive
