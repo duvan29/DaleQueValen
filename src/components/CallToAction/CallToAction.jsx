@@ -12,7 +12,7 @@ const CallToAction = ({ bgColor }) => {
         <div className="md:w-[50%] ms:w-full h-full flex">
           <div className="w-full flex text-center items-center">
             <h6 className="text-black ms:text-[12px] md:text-[24px] max-w-[300px] ">
-              “Gracias por confiar en DALE que VALEN”
+              “Gracias por confiar en Dale que Valen“
             </h6>
           </div>
           <div className="w-[42%] flex justify-end absolute pr-10 -mt-[40px] ">
@@ -32,7 +32,7 @@ const CallToAction = ({ bgColor }) => {
           </div>
           <div className="w-full flex justify-end text-center items-center ">
             <h6 className="text-black ms:text-[12px] md:text-[24px] max-w-[300px]">
-              “Enterate de todas nuestras novedades en nuestras redes sociales”
+              “Enterate de todas las novedades en nuestras redes sociales”
             </h6>
           </div>
         </div>

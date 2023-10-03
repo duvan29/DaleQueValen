@@ -30,7 +30,7 @@ const Footer = () => {
           >
             <Icon icon="Whatsapp" />
           </Link>
-          <p className="gap-6 mt-2">+54 38-1510-80759</p>
+          <p className="gap-6 mt-2">+54 38 1510 8075</p>
         </div>
         <div className="flex">
         <Link

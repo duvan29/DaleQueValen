@@ -10,10 +10,7 @@ const BannerConocenos = () => {
       <div className="flex md:justify-between md:mb-[40px] ms:flex-col-reverse md:flex-row ">
         <div className="w-[70%] flex flex-col justify-start mr-[25px] ms:w-[100%] md:text-left">
           <h4 className="mb-[20px] ms:mb-[10px] ms:text-[12px] md:text-[20px]">
-            Somos una fundación sin fines de lucro, que busca ser un puente de
-            esperanza y fe para obtener las mejores terapias y recursos
-            ortopédicos y tecnológicos para niños y niñas con Parálisis Cerebral
-            en Tucumán.
+          Somos una fundación sin fines de lucro, que busca ser un puente de esperanza y fe para obtener las mejores terapias, recursos ortopédicos y tecnológicos, para niños y niñas con Parálisis Cerebral en Tucumán.
           </h4>
           <h4 className="mb-[20px] ms:mb-[10px] ms:text-[12px] md:text-[20px]">
             Nacimos con la ilusión de transformar todo aquello que vivimos con
@@ -30,7 +27,7 @@ const BannerConocenos = () => {
           </h4>
           <h4 className="mb-[20px] ms:mb-[10px] ms:text-[12px] md:text-[20px]">
             Buscamos acortar la brecha geográfica, medicinal y terapéutica que
-            existe entre Tucumán y los países desarrollados, consiguiendo los
+            existe entre Tucumán y otras ciudades de países desarrollados, consiguiendo los
             elementos ortopédicos y la capacitación necesaria para obtener
             resultados similares a los de esos países.
           </h4>
