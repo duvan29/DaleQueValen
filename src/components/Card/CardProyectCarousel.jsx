@@ -9,7 +9,7 @@ const CardProyectCarousel = ({title, description, image, id}) => {
       {/* Lado izquierdo */}
       <div className='md:w-[50%] ms:w-full h-full flex flex-col justify-center relative'>
         <h2 className='text-black md:mb-[20px] ms:text-[12px] md:text-[24px]'>{title}</h2>
-        <h4 className='text-black md:mb-[20px] md:max-w-[500px] md:text-[20px] ms:text-[10px] overflow-hidden'>{description}</h4>
+        <h4 className='text-black md:mb-[20px] md:max-w-[500px] md:text-[20px] ms:text-[12px] overflow-hidden'>{description}</h4>
         <div className='lg:w-[80%]  ms:w-[100%] text-right md:mb-[10px] '>
       </div>
           <div className='w-[100%] text-right lg:pr-[60px] md:mt-[380px] absolute lg:mt-[340px] ms:mt-[140px]'>

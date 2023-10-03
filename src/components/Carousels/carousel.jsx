@@ -1,9 +1,8 @@
-'use client';
-import Icon from '@/assets/icons/icon';
-import { useRef } from 'react';
+"use client";
+import Icon from "@/assets/icons/icon";
+import { useRef } from "react";
 
-
-export function Carousel({ children, useFlexStyle  }) {
+export function Carousel({ children, useFlexStyle }) {
   const carouselRef = useRef(null);
 
   function next() {
@@ -11,7 +10,7 @@ export function Carousel({ children, useFlexStyle  }) {
 
     if (carouselRef?.current?.children?.length > 0) {
       const firstElement = carouselRef?.current?.children[0];
-      carouselRef.current.style.transition = '300ms ease-out all';
+      carouselRef.current.style.transition = "300ms ease-out all";
 
       const size = carouselRef.current.children[0].clientWidth;
 
@@ -20,14 +19,14 @@ export function Carousel({ children, useFlexStyle  }) {
       const transicion = () => {
         if (!carouselRef.current) return;
 
-        carouselRef.current.style.transition = 'none';
-        carouselRef.current.style.transform = 'translatex(0px)';
+        carouselRef.current.style.transition = "none";
+        carouselRef.current.style.transform = "translatex(0px)";
 
         carouselRef.current.appendChild(firstElement);
-        carouselRef.current.removeEventListener('transitionend', transicion);
+        carouselRef.current.removeEventListener("transitionend", transicion);
       };
 
-      carouselRef.current.addEventListener('transitionend', transicion);
+      carouselRef.current.addEventListener("transitionend", transicion);
     }
   }
   function previus() {
@@ -41,7 +40,7 @@ export function Carousel({ children, useFlexStyle  }) {
         carouselRef?.current?.firstChild
       );
 
-      carouselRef.current.style.transition = 'none';
+      carouselRef.current.style.transition = "none";
 
       const size = carouselRef.current.children[0].clientWidth;
       carouselRef.current.style.transform = `translate(-${size}px)`;
@@ -49,8 +48,8 @@ export function Carousel({ children, useFlexStyle  }) {
       setTimeout(() => {
         if (!carouselRef.current) return;
 
-        carouselRef.current.style.transition = '300ms ease-out all';
-        carouselRef.current.style.transform = 'translatex(0)';
+        carouselRef.current.style.transition = "300ms ease-out all";
+        carouselRef.current.style.transform = "translatex(0)";
       }, 30);
     }
   }
@@ -62,9 +61,9 @@ export function Carousel({ children, useFlexStyle  }) {
       <div className="flex relative items-center">
         <button
           onClick={() => previus()}
-          className='lg:w-[162px] md:w-[100px] lg:h-[140px] lg:pr-[0px]  lg:pt-[40px]  lg:pb-[40px] lg:pl-[40px] md:p-[5px] ms:p-[15px]  ms:w-[60px] ms:h-[60px] flex justify-start items-center text-gray hover:text-black'
+          className="lg:w-[162px] md:w-[100px] lg:h-[140px] lg:pr-[0px]  lg:pt-[40px]  lg:pb-[40px] lg:pl-[40px] md:p-[5px] ms:p-[15px]  ms:w-[60px] ms:h-[60px] flex justify-start items-center text-gray hover:text-black"
         >
-          <Icon icon='ArrowL'/>
+          <Icon icon="ArrowL" />
         </button>
         <div className="overflow-hidden w-full">
           <div
@@ -77,10 +76,10 @@ export function Carousel({ children, useFlexStyle  }) {
                   key={i}
                   className={`min-w-full ${
                     useFlexStyle === true
-                      ? 'overflow-hidden'
+                      ? "overflow-hidden"
                       : useFlexStyle === false
-                      ? 'ms:min-w-[calc(100%/2)] md:min-w-[calc(100%/3)] lg:min-w-[calc(100%/4)] px-1 grid place-content-center overflow-hidden'
-                      : 'ms:min-w-[calc(100%/1)] lg:min-w-[calc(100%/3)] xl:min-w-[calc(100%/4)] px-5 grid place-content-center overflow-hidden'
+                      ? "ms:min-w-[calc(100%/2)] md:min-w-[calc(100%/3)] lg:min-w-[calc(100%/4)] px-1 grid place-content-center overflow-hidden"
+                      : "ms:min-w-[calc(100%/1)] lg:min-w-[calc(100%/3)] xl:min-w-[calc(100%/4)] px-5 grid place-content-center overflow-hidden"
                   }`}
                 >
                   {child}
@@ -91,9 +90,9 @@ export function Carousel({ children, useFlexStyle  }) {
         </div>
         <button
           onClick={() => next()}
-          className='lg:w-[162px] lg:h-[140px] md:w-[100px]  lg:pr-[40px]  lg:pt-[40px]  lg:pb-[40px] lg:pl-[0px] md:p-[5px] ms:p-[15px] ms:w-[60px] ms:h-[60px] flex justify-end items-center  text-gray hover:text-black'
+          className="lg:w-[162px] lg:h-[140px] md:w-[100px]  lg:pr-[40px]  lg:pt-[40px]  lg:pb-[40px] lg:pl-[0px] md:p-[5px] ms:p-[15px] ms:w-[60px] ms:h-[60px] flex justify-end items-center  text-gray hover:text-black"
         >
-          <Icon icon='ArrowR'/>
+          <Icon icon="ArrowR" />
         </button>
       </div>
     </>

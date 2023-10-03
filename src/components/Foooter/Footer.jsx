@@ -24,23 +24,23 @@ const Footer = () => {
       <div className="flex gap-4 flex-row mx-20">
         <div className="flex">
           <Link
-            className=" w-10 hover:text-[#8e83bc] flex mx-3"
-            href={"https://web.whatsapp.com/"}
+            className=" w-10 hover:text-purple flex mx-3"
+            href={"https://wa.me/+543815108075"}
             target="_blank"
           >
             <Icon icon="Whatsapp" />
           </Link>
-          <p className="gap-6 mt-2">+54-2612425949</p>
+          <p className="gap-6 mt-2">+54 38 1510 8075</p>
         </div>
         <div className="flex">
-          <Link
-            className=" w-10 hover:text-[#8e83bc] flex mx-2"
-            href={"https://gmail.com/"}
-            target="_blank"
-          >
-            <Icon icon="Mail" />
-          </Link>
-          <p className="gap-4 mt-2">dalequevalen@gmail.com</p>
+        <Link
+          className="w-10 hover:text-purple flex mx-2"
+          href="mailto:info@dalequevalen.com"
+          target="_blank"
+        >
+          <Icon icon="Mail" />
+        </Link>
+          <p className="gap-4 mt-2">info@dalequevalen.com</p>
         </div>
       </div>
     </footer>

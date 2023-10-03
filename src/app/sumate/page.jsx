@@ -8,14 +8,6 @@ import ContainerTiposDonar from '@/components/Containers/ContainerTiposDonar';
 import { tiposDeDonar } from '@/mock/mockTiposDeDonar';
 
 export default function Sumate() {
-  const widthFull = 'w-full ms:h-[90px] md:h-auto';
-  const width40 = 'w-[40%]';
-  const flexGrow1 = `grow-[2] md:grow-0 `;
-  const flexGrow0 = `grow-[1] w-[135px]`;
-  const flexDirectionRow = `flex`;
-  const flexDirectionCol = `flex-col md:flex md:flex-row `;
-  const centerButton = `flex ms:justify-center md:justify-end lg:justify-center `;
-  const endButton = `flex ms:justify-end lg:justify-center `;
   return (
     <main>
       <SectionTitle bgColor="purple" title="sumate" />
