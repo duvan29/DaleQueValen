@@ -7,7 +7,7 @@ export default function ContainerTimeline() {
       imageSrc1: Images.TimeLine.Lt1,
       imageSrc2: Images.TimeLine.Lt2,
       text1:
-        "El 19 de noviembre del 2019 nace nuestro hijo Valentino prematuramente y sufrió una hemorragia cerebral que le provocó una parálisis cerebral. Desde ese momento nos enfrentamos a un mundo lleno de desafíos, decidimos buscar información, pero también encontramos muchas barreras.",
+        "El 19 de noviembre del 2019 nació nuestro hijo Valentino prematuramente y sufrió una hemorragia cerebral que le provocó una parálisis cerebral. Desde ese momento nos enfrentamos a un mundo lleno de desafíos, decidimos buscar información y también encontramos muchas barreras.",
       text2:
         "Nunca nos rendimos, luchamos cada día por verlo progresar y entendimos que él es nuestro maestro. Valentino nos demuestra lo valioso que es, que merece ser feliz y tener las mismas oportunidades que cualquier niño.",
     },
@@ -16,11 +16,11 @@ export default function ContainerTimeline() {
       imageSrc1: Images.TimeLine.Lt3,
       imageSrc2: "",
       text1:
-        "Así nace nuestra ilusión de transformar lo que vivimos junto a Valentino, un motor para conseguir tratamientos innovadores en Tucumán y ser un puente para las familias de otros niños afectados por la parálisis cerebral infantil asociados a la prematuridad.",
+        "Así nace nuestra ilusión de transformar lo que vivimos junto a Valentino en un motor para conseguir tratamientos innovadores en Tucumán y ser un puente para las familias de otros niños afectados por la parálisis cerebral infantil asociados a la prematuridad.",
       text2: "",
     },
     {
-      year: "2021",
+      year: "2022",
       imageSrc1: "",
       imageSrc2: Images.TimeLine.Lt22,
       text1: "",

@@ -57,26 +57,26 @@ export default function Conocenos() {
           <div className="flex justify-center flex-col text-center items-center mr-5 ">
             <Link
               className=" w-12 hover:text-[#8e83bc] flex mx-2"
-              href={"https://gmail.com/"}
+              href={"mailto:info@dalequevalen.com"}
               target="_blank"
             >
               <Icon icon="Mail" />
             </Link>
             <p className="underline ms:text-[12px] md:text-[16px] mx-0">
-              dalequevalen@gmail.com
+              info@dalequevalen.com
             </p>
           </div>
 
           <div className="flex justify-center flex-col text-center items-center md:mx-[20px] ms:mx-[20px] ml-5">
             <Link
               className=" w-10 hover:text-[#8e83bc] flex"
-              href={"https://web.whatsapp.com/"}
+              href={"https://wa.me/+543815108075"}
               target="_blank"
             >
               <Icon icon="Whatsapp" />
             </Link>
             <p className="mt-2 ms:text-[12px] md:text-[16px] mx-0">
-              +54 - 261 - 2425949
+              +54 38 1510 8075
             </p>
           </div>
         </section>
