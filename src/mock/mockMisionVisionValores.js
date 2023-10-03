@@ -12,7 +12,7 @@ const mision = [
     id: "2",
     title: "Visión",
     description:
-      "La visión de la fundación Dale que Valen es ser una organización líder y referente en el campo de la salud alternativa para la parálisis cerebral, logrando acortar la brecha geográfica y terapéutica que existe entre Tucumán y los países del primer mundo, contribuyendo a la inclusión social y el bienestar de los niños y niñas con esta condición.",
+      "La visión de la fundación Dale que Valen es ser una organización líder y referente en el campo de la salud alternativa para la parálisis cerebral, logrando acortar la brecha geográfica y terapéutica que existe entre Tucumán y otros lugares del mundo, contribuyendo a la inclusión social y el bienestar de los niños y niñas con esta condición.",
     Image: Images.empresa.Vision,
   },
   {
