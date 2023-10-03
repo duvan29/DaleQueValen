@@ -62,8 +62,8 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        bgBanner:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/Banner%20sonrisa%20valen.webp")',
-        bgBanner2:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/Banner%20Sumate.webp")',
+        bgBanner:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/Bannersonrisavalen.webp")',
+        bgBanner2:'url("https://raw.githubusercontent.com/duvan29/DaleQueValen/developer/src/assets/img/Banner/BannerSumate.webp")',
       },
     },
   },

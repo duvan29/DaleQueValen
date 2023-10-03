@@ -1,4 +1,4 @@
-import { Images } from "@/assets/img";
+import { Images } from '@/assets/img';
 
 export const tiposDeDonar = [
   {
@@ -7,7 +7,8 @@ export const tiposDeDonar = [
     description:
       'Tenes insumos o equipamiento que tu niño ya no usa (sillas de ruedas, medicamentos, cuello ortopédico, lo que se te ocurra) y te gustaría poder donárselo a otro niño?',
     boton: 'Colaborar',
-    Image: Images.Sumate.ColaborarEquipo
+    href: 'https://donaronline.org/fundacion-dale-que-valen/pequenos-heroes-grandes-suenos',
+    Image: Images.Sumate.ColaborarEquipo,
   },
   {
     id: '2',
@@ -15,6 +16,7 @@ export const tiposDeDonar = [
     description:
       'Si tenes ganas de colaborar con tu tiempo, hay muchas formas de hacerlo como voluntario (redes sociales, tareas administrativas, ayuda física, toda idea es bienvenida)',
     boton: 'Colaborar',
+    href: 'https://donaronline.org/fundacion-dale-que-valen/pequenos-heroes-grandes-suenos',
     Image: Images.Sumate.SerVoluntario,
   },
 
@@ -24,6 +26,7 @@ export const tiposDeDonar = [
     description:
       'Creemos que caminar acompañado siempre es mejor. Invitamos a familias de niños con PC a unirse a nuestra comunidad.',
     boton: 'Asociarme',
+    href: 'https://donaronline.org/fundacion-dale-que-valen/pequenos-heroes-grandes-suenos',
     Image: Images.Sumate.AsiciarseFamily,
   },
   {
@@ -32,6 +35,7 @@ export const tiposDeDonar = [
     description:
       'Seguinos en redes sociales, compartí nuestro contenido y ayudanos a llegar a más familias que nos necesitan.',
     boton: 'Colaborar',
+    href: 'https://donaronline.org/fundacion-dale-que-valen/pequenos-heroes-grandes-suenos',
     Image: Images.Sumate.ColaborarRedes,
   },
 ];

@@ -10,7 +10,7 @@ export default function Conocenos() {
       <SectionTitle bgColor="pink" className="bg-pink" title="contacto" />
       <CallToActionMobileTop className="flex flex-col p-5 " bgColor="pink" />
       <div className="flex flex-col text-center mb-6">
-        <h1 className="mb-10 text-base ms:text-[16px] md:text-[24px] mt-12">
+        <h1 className="mb-6 text-base ms:text-[16px] md:text-[24px] mt-5">
           Redes sociales
         </h1>
 
@@ -50,11 +50,11 @@ export default function Conocenos() {
           className="flex flex-col p-5"
           bgColor="pink"
         />
-        <h1 className="mb-10 text-base ms:text-[16px] md:text-[24px] mt-12">
+        <h1 className="mb-10 text-base ms:text-[16px] md:text-[24px] mt-5">
           Contacto
         </h1>
-        <section className="flex justify-center items-center text-center">
-          <div className="flex justify-center flex-col text-center items-center m-10">
+        <section className="flex justify-center items-center text-center mt-[-20px]">
+          <div className="flex justify-center flex-col text-center items-center mr-5 ">
             <Link
               className=" w-12 hover:text-[#8e83bc] flex mx-2"
               href={"https://gmail.com/"}
@@ -62,21 +62,21 @@ export default function Conocenos() {
             >
               <Icon icon="Mail" />
             </Link>
-            <p className="mt-2 underline ms:text-[12px] md:text-[16px] mx-0 px-0">
+            <p className="underline ms:text-[12px] md:text-[16px] mx-0">
               dalequevalen@gmail.com
             </p>
           </div>
 
-          <div className="flex justify-center flex-col text-center items-center md:mx-[70px] ms:mx-[60px]">
+          <div className="flex justify-center flex-col text-center items-center md:mx-[20px] ms:mx-[20px] ml-5">
             <Link
-              className=" w-10 hover:text-[#8e83bc] flex mx-2"
+              className=" w-10 hover:text-[#8e83bc] flex"
               href={"https://web.whatsapp.com/"}
               target="_blank"
             >
               <Icon icon="Whatsapp" />
             </Link>
             <p className="mt-2 ms:text-[12px] md:text-[16px] mx-0">
-              +542612425949
+              +54 - 261 - 2425949
             </p>
           </div>
         </section>
