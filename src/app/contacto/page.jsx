@@ -14,10 +14,10 @@ export default function Conocenos() {
           Redes sociales
         </h1>
 
-        <section className="flex justify-evenly mb-6">
+        <section className="flex justify-around  flex-wrap mb-6">
           <div className="flex flex-col justify-center items-center text-center">
             <Link
-              className="w-10 hover:text-[#8e83bc]"
+              className="w-10 hover:text-purple"
               href={"https://www.instagram.com/dalequevalen/"}
               target="_blank"
             >
@@ -37,11 +37,21 @@ export default function Conocenos() {
           </div>
           <div className="flex flex-col justify-center items-center text-center">
             <Link
-              className="w-10 hover:text-[#8e83bc]"
+              className="w-10 hover:text-purple"
               href={"https://www.linkedin.com/"}
               target="_blank"
             >
               <Icon icon="Linkedin" />
+            </Link>
+            <p className="mt-2 ms:text-[12px] md:text-[16px]">@dalequevalen</p>
+          </div>
+          <div className="flex flex-col justify-center items-center text-center">
+            <Link
+              className="w-10 hover:text-purple"
+              href={"https://www.linkedin.com/"}
+              target="_blank"
+            >
+              <Icon icon="Youtube" />
             </Link>
             <p className="mt-2 ms:text-[12px] md:text-[16px]">@dalequevalen</p>
           </div>
@@ -56,7 +66,7 @@ export default function Conocenos() {
         <section className="flex justify-center items-center text-center mt-[-20px]">
           <div className="flex justify-center flex-col text-center items-center mr-5 ">
             <Link
-              className=" w-12 hover:text-[#8e83bc] flex mx-2"
+              className=" w-12 hover:text-purple flex mx-2"
               href={"mailto:info@dalequevalen.com"}
               target="_blank"
             >
@@ -69,7 +79,7 @@ export default function Conocenos() {
 
           <div className="flex justify-center flex-col text-center items-center md:mx-[20px] ms:mx-[20px] ml-5">
             <Link
-              className=" w-10 hover:text-[#8e83bc] flex"
+              className=" w-10 hover:text-purple flex"
               href={"https://wa.me/+543815108075"}
               target="_blank"
             >
