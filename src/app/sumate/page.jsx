@@ -16,27 +16,6 @@ export default function Sumate() {
       <SectionDonarDinero />
       <CardDonarBig />
       <ContainerTiposDonar tiposDeDonar={tiposDeDonar} />
-      {/* <div className="flex flex-wrap justify-between items-center md:flex-nowrap md:flex-col md:justify-evenly lg:flex-row gap-4 lg:gap-8 mb-8 lg:mb-20">
-        {' '}
-        <CardDonarSmall
-          flexGrow={flexGrow1}
-          flexDirection={flexDirectionRow}
-          width={width40}
-          button={endButton}
-        />
-        <CardDonarSmall
-          flexGrow={flexGrow0}
-          flexDirection={flexDirectionCol}
-          width={widthFull}
-          button={centerButton}
-        />
-        <CardDonarSmall
-          flexGrow={flexGrow0}
-          flexDirection={flexDirectionCol}
-          width={widthFull}
-          button={centerButton}
-        />
-      </div> */}
 
       <CallToAction bgColor="purple" />
     </main>
