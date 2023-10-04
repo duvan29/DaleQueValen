@@ -64,7 +64,7 @@ export default function NavResponsive() {
                     <p className='mb-3'>Seguinos en redes:</p>
                     
                     <div className='flex justify-evenly mb-6'>
-                        <Link className='w-10 hover:text-[#8e83bc]'
+                        <Link className='w-10 hover:text-purple'
                             href={"https://www.instagram.com/dalequevalen/"}
                             target='_blank'>
                             <Icon
@@ -80,11 +80,19 @@ export default function NavResponsive() {
                             />
                         </Link>
             
-                        <Link className='w-12 hover:text-[#8e83bc]'
+                        <Link className='w-12 hover:text-purple'
                             href={"https://www.linkedin.com/"}
                             target='_blank'>
                             <Icon
                             icon="Linkedin"
+                            />
+                        </Link>
+
+                        <Link className='w-14 p-0 hover:text-purple'
+                            href={"https://www.linkedin.com/"}
+                            target='_blank'>
+                            <Icon
+                            icon="Youtube"
                             />
                         </Link>
                     </div>
