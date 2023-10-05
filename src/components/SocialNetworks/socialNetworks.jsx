@@ -14,7 +14,7 @@ function SocialNetworks() {
         </Link>
         <Link
           className="w-10 hover:text-purple text-white"
-          href={"https://www.youtube.com/"}
+          href={"https://www.youtube.com/channel/UC9IvHdeVHDdWyZzISWVSBhw"}
           target="_blank"
         >
           <Icon icon="Youtube" />
