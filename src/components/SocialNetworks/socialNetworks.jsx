@@ -7,7 +7,7 @@ function SocialNetworks() {
       <div className="flex flex-col gap-6">
         <Link
           className="w-10 hover:text-purple text-white"
-          href={"https://www.facebook.com/"}
+          href={"https://www.facebook.com/dalequevalen/"}
           target="_blank"
         >
           <Icon icon="Facebook" />
@@ -21,14 +21,14 @@ function SocialNetworks() {
         </Link>
         <Link
           className="w-10 hover:text-purple text-white"
-          href={"https://www.instagram.com/dalequevalen/"}
+          href={"https://instagram.com/dalequevalen?igshid=MzRlODBiNWFlZA=="}
           target="_blank"
         >
           <Icon icon="Instagram" />
         </Link>
         <Link
           className="w-10 hover:text-purple  text-white"
-          href={"https://www.linkedin.com/"}
+          href={"https://www.linkedin.com/in/dale-que-valen-7ab820294/"}
           target="_blank"
         >
           <Icon icon="Linkedin" />
