@@ -25,7 +25,10 @@ export default function CardDonarBig() {
           </h4>
 
           <div className="text-right mt-1 lg:flex lg:items-center lg:justify-end">
-            <ButtonDonar href="#" action="colaborar" />
+            <ButtonDonar
+              href="https://docs.google.com/forms/d/e/1FAIpQLScX2KIa2NhN9GwfMTfbPFMrttEUXao8V2gBuLCgEHcavuacyA/viewform?usp=sf_link"
+              action="colaborar"
+            />
           </div>
         </div>
       </div>
