@@ -1,14 +1,14 @@
-import { Images } from '@/assets/img';
+import { Images } from "@/assets/img";
 
-import Image from 'next/image';
-import ButtonDonar from '../ButtonDonar/ButtonDonar';
+import Image from "next/image";
+import ButtonDonar from "../ButtonDonar/ButtonDonar";
 
 export default function CardDonarBig() {
   return (
     <div>
       <div
         className="flex w-full mb-3 md:p-0 lg:my-8 bg-purple-30 rounded-2xl lg:justify-between lg:py-8 md:max-h-[400px] lg:h-auto md:mb-8 lg:m-0"
-        style={{ boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)' }}
+        style={{ boxShadow: "0px 4px 4px rgba(0, 0, 0, 0.25)" }}
       >
         <Image
           src={Images.Sumate.ColaborarEquipo}
@@ -16,7 +16,7 @@ export default function CardDonarBig() {
         />
         <div className="flex-col w-[60%] md:w-auto md:pl-12 md:py-8 md:pr-20 lg:w-[50%] px-4 py-3 lg:pl-0  lg:my-auto">
           <h2 className="text-center text-[12px] mb-2 md:text-purple md:uppercase md:text-[24px] md:mb-5">
-            Colaborar con insumos o medicamentos
+            Colaborar con equipamientos o insumos
           </h2>
           <h4 className="text-[10px] md:text-[20px]">
             Tenes insumos o equipamiento que tu niño ya no usa (sillas de
