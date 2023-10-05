@@ -12,7 +12,7 @@ const CallToAction = ({ bgColor }) => {
         <div className="ms:w-full h-full flex">
           <div className="w-full flex  text-center items-center">
             <h6 className="text-black ms:text-[12px] md:text-[20px] w-[50%] mx-10">
-              “No dudes en contactarnos y dejar tu huella en el mundo”
+              “Un puente para la diversidad”
             </h6>
           </div>
 
