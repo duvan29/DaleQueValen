@@ -50,7 +50,7 @@ export default function Conocenos() {
           <div className="flex flex-col justify-center items-center text-center">
             <Link
               className="w-10 hover:text-purple"
-              href={"https://www.youtube.com/"}
+              href={"https://www.youtube.com/channel/UC9IvHdeVHDdWyZzISWVSBhw"}
               target="_blank"
             >
               <Icon icon="Youtube" />

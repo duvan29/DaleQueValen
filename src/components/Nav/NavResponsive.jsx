@@ -89,7 +89,7 @@ export default function NavResponsive() {
                         </Link>
 
                         <Link className='w-14 p-0 hover:text-purple'
-                            href={"https://www.linkedin.com/"}
+                            href={"https://www.youtube.com/channel/UC9IvHdeVHDdWyZzISWVSBhw"}
                             target='_blank'>
                             <Icon
                             icon="Youtube"
