@@ -46,7 +46,7 @@ const equipo = [
   {
     id:'8',
     title: 'MARKETING Y COM.',
-    description: 'Lic. LucÍa Moyano',
+    description: 'Lic. Lucía Moyano',
     Image: Images.workTeam.f8,
   },
   {
@@ -154,7 +154,7 @@ const equipo = [
   {
     id:'25',
     title: 'DESARROLLADOR',
-    description: 'AgustÍn Perea',
+    description: 'Agustín Perea',
     Image: Images.workTeam.f25,
   },
   {
@@ -172,7 +172,7 @@ const equipo = [
   {
     id:'28',
     title: 'COMMUNITY MANAGER',
-    description: 'MartÍn Arguello',
+    description: 'Martín Arguello',
     Image: Images.workTeam.f28,
   },
   {

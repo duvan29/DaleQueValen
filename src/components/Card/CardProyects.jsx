@@ -8,7 +8,7 @@ function ProyectoCard({ project, onClick, isActive }) {
   return (
     <div className="flex flex-row">
       <button className={buttonClass} onClick={() => onClick(project.id)}>
-        <h2 className='lg:text-[24px] md:text-[20px] ms:text-[14px]'>
+        <h2 className='lg:text-[24px] md:text-[20px] ms:text-[10px] sm:text-[12px]'>
             {project.title}
         </h2>
       </button>
