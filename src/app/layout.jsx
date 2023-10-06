@@ -10,7 +10,7 @@ import SocialNetworks from '@/components/SocialNetworks/socialNetworks';
 
 
 export const metadata = {
-  title: 'Fundación ONG',
+  title: ' Fundación ONG',
   description: 'Create by footalent',
 };
 
