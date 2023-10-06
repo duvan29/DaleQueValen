@@ -4,7 +4,7 @@ const CardTeam = ({ title, description, image, id }) => {
   return (
     <section className='flex flex-row justify-between text-center w-[33%]'>
       <div className='flex flex-col justify-center text-center items-center p-5'>
-        <div className="rounded-full overflow-hidden lg:h-[270px] md:w-[140px] lg:w-[270px] ms:w-[100px] ms:h-[100px]  md:h-[140px] mx-auto mb-[10px]">
+        <div className="rounded-full overflow-hidden lg:h-[200px] lg:w-[200px] wl:h-[270px] md:w-[140px] wl:w-[270px] ms:w-[100px] ms:h-[100px]  md:h-[140px] mx-auto mb-[10px]">
             <Image
               key={id}
               id={id}

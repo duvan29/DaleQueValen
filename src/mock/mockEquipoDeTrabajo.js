@@ -4,7 +4,7 @@ const equipo = [
   {
     id:'1',
     title: 'FUNDADORA Y CEO',
-    description: 'Lic. Arantxa Olmos Salgadoa',
+    description: 'Lic. Arantxa Olmos Salgado',
     Image: Images.workTeam.f1,
   },
   {
@@ -33,7 +33,7 @@ const equipo = [
   },
   {
     id:'6',
-    title: 'COMUNICACÍON ALT.',
+    title: 'COMUNICACIÓN ALT.',
     description: 'Lic. Fabiola Vega',
     Image: Images.workTeam.f6,
   },
@@ -46,7 +46,7 @@ const equipo = [
   {
     id:'8',
     title: 'MARKETING Y COM.',
-    description: 'Lic. Lucia Moyano',
+    description: 'Lic. LucÍa Moyano',
     Image: Images.workTeam.f8,
   },
   {
@@ -87,7 +87,7 @@ const equipo = [
   },
   {
     id:'15',
-    title: 'CONVENIOS Y PROT',
+    title: 'CONVENIOS Y PROT.',
     description: 'Arq. Graciela Rotella',
     Image: Images.workTeam.f15,
   },
@@ -141,7 +141,7 @@ const equipo = [
   },
   {
     id:'23',
-    title: 'DISEÑADORA UX/UI',
+    title: 'DISEÑADOR UX/UI',
     description: 'Jeins Jordy López',
     Image: Images.workTeam.f23,
   },
@@ -154,7 +154,7 @@ const equipo = [
   {
     id:'25',
     title: 'DESARROLLADOR',
-    description: 'Agustin Perea',
+    description: 'AgustÍn Perea',
     Image: Images.workTeam.f25,
   },
   {
@@ -172,7 +172,7 @@ const equipo = [
   {
     id:'28',
     title: 'COMMUNITY MANAGER',
-    description: 'Martin Arguello',
+    description: 'MartÍn Arguello',
     Image: Images.workTeam.f28,
   },
   {
