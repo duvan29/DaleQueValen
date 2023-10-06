@@ -11,7 +11,7 @@ const CallToAction = ({ bgColor }) => {
       >
         <div className="md:w-[50%] ms:w-full h-full flex">
           <div className="w-full flex text-center items-center">
-            <h6 className="text-black ms:text-[12px] md:text-[24px] max-w-[300px] ">
+            <h6 className="text-black ms:text-[12px] wl:text-[24px] lg:text-[20px] lg:max-w-[250px] wl:max-w-[300px] ">
               “Un puente para la diversidad“
             </h6>
           </div>
@@ -31,7 +31,7 @@ const CallToAction = ({ bgColor }) => {
             />
           </div>
           <div className="w-full flex justify-end text-center items-center ">
-            <h6 className="text-black ms:text-[12px] md:text-[24px] max-w-[300px]">
+            <h6 className="text-black ms:text-[12px] wl:text-[24px] lg:text-[20px] lg:max-w-[250px] wl:max-w-[300px] ">
               “Enterate de todas las novedades en nuestras redes sociales”
             </h6>
           </div>

@@ -5,7 +5,7 @@ const mision = [
     id: "1",
     title: "Misión",
     description:
-      "La misión de la fundación Dale que Valen es brindar a los niños y niñas con parálisis cerebral adquiridas por prematurez las mejores opciones de salud para mejorar su calidad de vida y potenciar su desarrollo motor, comunicacional, cognitivo y espiritual.",
+      "La misión de la fundación Dale que Valen es brindar a los niños y niñas con parálisis cerebral adquirida por prematurez las mejores opciones de salud para mejorar su calidad de vida y potenciar su desarrollo motor, comunicacional, cognitivo y espiritual.",
     Image: Images.empresa.Mision,
   },
   {

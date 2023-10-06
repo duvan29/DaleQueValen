@@ -19,9 +19,7 @@ export default function CardDonarBig() {
             Colaborar con equipamientos o insumos
           </h2>
           <h4 className="text-[10px] md:text-[20px]">
-            Tenes insumos o equipamiento que tu niño ya no usa (sillas de
-            ruedas, medicamentos, cuello ortopédico, lo que se te ocurra) y te
-            gustaría poder donárselo a otro niño?
+          ¿Tienes insumos o equipamiento que tu niño ya no usa (sillas de ruedas, medicamentos, cuello ortopédico, lo que se te ocurra) y te gustaría poder donárselo a otro niño?
           </h4>
 
           <div className="text-right mt-1 lg:flex lg:items-center lg:justify-end">
