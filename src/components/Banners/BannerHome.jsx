@@ -9,13 +9,14 @@ const BannerHome = () => {
           maxWidth: "1200px",
         }}
       >
-        <h4 className="ms:text-[12px] md:text-[20px]">
-          Somos Dale que Valen, una fundación que cree en el poder de la salud
-          para mejorar la vida de los niños y niñas con parálisis cerebral.
-          Buscamos innovar y acercar las mejores opciones terapéuticas y
-          tecnológicas que existen en el mundo para potenciar el desarrollo
-          integral de nuestros pequeños valientes. ¡Súmate a nuestra causa y
-          ayúdanos a hacer realidad sus sueños!
+        <h4 className="ms:text-[12px] md:text-[20px] lg:relative lg:bottom-8">
+          Dale que valen es una fundación, sin fines de lucro, cuyo principal
+          propósito es encontrar y ofrecer soluciones de salud innovadoras y
+          efectivas que mejoren su bienestar y les permitan desarrollar todo su
+          potencial. La fundación busca constantemente aprender y aplicar las
+          mejores prácticas terapéuticas que existen en los países del primer
+          mundo. Somos un puente que une a los niños y niñas con parálisis
+          cerebral con las oportunidades que merecen.
         </h4>
       </div>
     </div>

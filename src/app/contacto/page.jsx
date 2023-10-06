@@ -18,7 +18,9 @@ export default function Conocenos() {
           <div className="flex flex-col justify-center items-center text-center">
             <Link
               className="w-10 hover:text-purple"
-              href={"https://www.instagram.com/dalequevalen/"}
+              href={
+                "https://instagram.com/dalequevalen?igshid=MzRlODBiNWFlZA=="
+              }
               target="_blank"
             >
               <Icon icon="Instagram" />
@@ -28,7 +30,7 @@ export default function Conocenos() {
           <div className="flex flex-col justify-center items-center text-center">
             <Link
               className="w-10 hover:text-purple"
-              href={"https://www.facebook.com/"}
+              href={"https://www.facebook.com/dalequevalen/"}
               target="_blank"
             >
               <Icon icon="Facebook" />
@@ -38,7 +40,7 @@ export default function Conocenos() {
           <div className="flex flex-col justify-center items-center text-center">
             <Link
               className="w-10 hover:text-purple"
-              href={"https://www.linkedin.com/"}
+              href={"https://www.linkedin.com/in/dale-que-valen-7ab820294/"}
               target="_blank"
             >
               <Icon icon="Linkedin" />
@@ -48,7 +50,7 @@ export default function Conocenos() {
           <div className="flex flex-col justify-center items-center text-center">
             <Link
               className="w-10 hover:text-purple"
-              href={"https://www.linkedin.com/"}
+              href={"https://www.youtube.com/channel/UC9IvHdeVHDdWyZzISWVSBhw"}
               target="_blank"
             >
               <Icon icon="Youtube" />

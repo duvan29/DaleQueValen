@@ -10,7 +10,7 @@ const Founder = () => {
         <div className=" p-4">
           <div className="rounded-full overflow-hidden md:h-[270px] ms:w-[104px] md:w-[270px] ms:h-[104px] mx-auto">
             <Image
-              src={Images.workTeam.Funder}
+              src={Images.workTeam.f1}
               className="h-full w-full object-cover"
               alt="Foto del fundador"
             />
