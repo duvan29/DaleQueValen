@@ -56,6 +56,7 @@ import Lt2 from './Lineadetiempo/Lineadeltiempo2.webp'
 import Lt3 from './Lineadetiempo/Lineadeltiempo3.webp'
 import Lt22 from './Lineadetiempo/Lineadeltiempo2022.webp'
 import Lt23 from './Lineadetiempo/Lineadeltiempo2023.webp'
+import Lt2023 from './Lineadetiempo/Lt2023.webp'
 
 // Importar las imagenes de Suimate'
 import AsiciarseFamily from './sumate/Asociarsecomofamilia.webp'
@@ -127,6 +128,7 @@ export const Images = {
         Lt3, 
         Lt22, 
         Lt23,
+        Lt2023
     },
     Sumate:{
         AsiciarseFamily,

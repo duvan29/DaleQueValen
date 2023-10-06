@@ -44,7 +44,7 @@ function ProyectoContainer({ proyects }) {
 
             <div className="ms:p-5 md:p-0 ms:bg-orange-20 md:bg-white ms:rounded-b-lg">
               <h6 className="ms:text-[14px] md:text-[20px]">Resumen</h6>
-              <p className="mb-[30px] ms:text-[10px] md:text-[16px]">
+              <p className="mb-[30px] ms:text-[12px] md:text-[16px]">
                 {selectedProject.description}
               </p>
               <h6 className="ms:text-[14px] md:text-[20px]">
@@ -53,7 +53,7 @@ function ProyectoContainer({ proyects }) {
               {selectedProject.complete
                 .split("\n\n")
                 .map((paragraph, index) => (
-                  <p key={index} className="ms:text-[10px] md:text-[16px]">
+                  <p key={index} className="ms:text-[12px] md:text-[16px]">
                     {paragraph}
                     <br />
                     <br /> {/* Dos saltos de línea */}

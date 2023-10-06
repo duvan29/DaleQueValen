@@ -30,10 +30,9 @@ export default function ContainerTimeline() {
     {
       year: "2023",
       imageSrc1: Images.TimeLine.Lt23,
-      imageSrc2: "",
-      text1:
-        "Hoy estamos orgullosos de este camino que recién comienza, y sabemos que nos queda muchísimo por hacer. Ahora, les pedimos que nos acompañen en este camino, que nos apoyen con su difusión, su donación o su voluntariado.",
-      text2: "",
+      imageSrc2: Images.TimeLine.Lt2023,
+      text1: "Hoy estamos orgullosos de este camino que recién comienza, y sabemos que nos queda muchísimo por hacer. Ahora, les pedimos que nos acompañen en este camino, que nos apoyen con su difusión, su donación o su voluntariado.",
+      text2: "Felices con nuestro trabajo, el 6 de octubre lanzamos nuestra página web, conmemorando el día mundial de la Parálisis Cerebral.",
     },
   ];
   return (
