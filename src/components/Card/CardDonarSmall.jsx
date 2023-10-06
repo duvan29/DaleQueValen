@@ -19,7 +19,7 @@ export default function CardDonarSmall({
           className={` ${width} md:w-[30%] lg:w-full lg:min-h-[312px] lg:max-h-[350px]  rounded-2xl object-cover lg:mx-auto lg:h-[50%] `}
         />
         <div
-          className={`flex flex-col  ms:justify-between ms:h-full md:items-center md:justify-center md:pr-20 md:py-4 md:w-full md:w-[50%] lg:w-full lg:m-0 px-4 py-3 md:py-8 lg:py-4 md:pr-16 md:pl-12 lg:p-0 lg:h-[60%] lg:justify-between lg:mb-4`}
+          className={`flex flex-col  ms:justify-between ms:h-full md:items-center md:justify-center md:pr-20 md:py-4 md:w-[50%] lg:w-full lg:m-0 px-4 py-3 lg:py-4 md:pl-12 lg:p-0 lg:h-[60%] lg:justify-between lg:mb-4`}
         >
           <div className="flex ms:justify-between ms:flex-col ms:h-full lg:flex-col h-full">
               <h2 className="text-center md:mt-2 ms:pb-4 text-black text-[12px] md:text-[24px] md:text-purple md:uppercase capitalize ">

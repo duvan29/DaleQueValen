@@ -21,7 +21,7 @@ export default function SectionDonarDinero() {
       >
         <Image
           src={Images.Sumate.DonarDinero}
-          className="w-[40%] md:w-[30%] rounded-2xl lg:items-center lg:p-0 lg:m-0 object-cover lg:mx-auto lg:mx-auto lg:p-0"
+          className="w-[40%] md:w-[30%] rounded-2xl lg:items-center lg:m-0 object-cover lg:mx-auto lg:p-0"
         />
         <div className="flex-col w-[60%] md:w-auto md:pl-12 md:py-8 md:pr-20 lg:w-[50%] px-4 py-3 lg:pl-0  lg:my-auto">
           <h2 className="text-center text-[12px] mb-2 md:text-purple md:uppercase md:text-[24px] md:mb-5">
