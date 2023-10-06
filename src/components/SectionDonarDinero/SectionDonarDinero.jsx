@@ -28,7 +28,7 @@ export default function SectionDonarDinero() {
             Donar Dinero
           </h2>
           <h4 className="text-[10px] md:text-[20px]">
-            Podes ayudarnos a alcanzar nuestros objetivos con una donación
+            Puedes ayudarnos a alcanzar nuestros objetivos con una donación
             económica a través del link de pago al hacer click en ‘Donar’ o a
             través de una trasferencia bancaria.{" "}
           </h4>
